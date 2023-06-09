@@ -1,12 +1,14 @@
 
 Notes
 =========================
+-------------------------------------
 General templates and lists:
 -------------------------------
 <ol>
 <li><a href="https://leetcode.com/discuss/general-discussion/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems">Binary search template</a></li>
 <ol>
 </br>
+----------------------------
 System design links </br>
 --------------------------
 <ol>
