@@ -1,4 +1,4 @@
-public class MaximumValueataGivenIndexinaBoundedArray {
+public class MaximumValueataGivenIndexinaBoundedArray1802 {
     public long getSum(int index, int sum, int n) {
         long ans = 0;
         // for left
