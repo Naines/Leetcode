@@ -25,7 +25,7 @@ class Solution {
         return ans.stream().mapToInt(Integer::intValue).toArray();
        
     }
-    //bs optimize to first occurence
+    //bs optimize to not use first occurence
      int bs(int nums[], int key, int lb){
             int ub=nums.length-1;
             while(lb<=ub){
