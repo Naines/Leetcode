@@ -8,10 +8,9 @@
  */
 class Solution {
     public void deleteNode(ListNode node) {
-        int val = node.val;
-        ListNode curr = node;
-        ListNode nn= curr.next;
-        curr.val= nn.val;
-        curr.next = nn.next;
+        //override data of next node + point curr node to next of next
+        //hence deleting node and not removing node from memory
+        node.val = node.next.val;
+        node.next = node.next.next;
     }
 }
