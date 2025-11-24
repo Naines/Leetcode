@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Naines/Leetcode/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/Naines/Leetcode/tree/master/0015-3sum) |
+| [0031-next-permutation](https://github.com/Naines/Leetcode/tree/master/0031-next-permutation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Naines/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [2429-design-a-food-rating-system](https://github.com/Naines/Leetcode/tree/master/2429-design-a-food-rating-system) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Naines/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Naines/Leetcode/tree/master/0015-3sum) |
+| [0031-next-permutation](https://github.com/Naines/Leetcode/tree/master/0031-next-permutation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Naines/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0908-middle-of-the-linked-list](https://github.com/Naines/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 ## Binary Search
