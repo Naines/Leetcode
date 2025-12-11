@@ -1,11 +1,15 @@
 class Solution {
     public int maxSubArray(int[] nums) {
-        int max = nums[0];
-        int sum =nums[0];
-        for(int i=1;i<nums.length;i++){
-            sum = Math.max(sum + nums[i], nums[i]);
-            max = Math.max(max, sum);
-        }
-        return max;
+      //5,4,-1,7,8
+      int sum = nums[0], maxSoFar = nums[0];
+      for(int i=1;i<nums.length;i++){
+        //get local maxima
+        sum = Math.max(sum+nums[i], nums[i]);
+
+        //get global maximum
+        maxSoFar = Math.max(maxSoFar, sum);
+      }
+
+      return maxSoFar;
     }
 }
