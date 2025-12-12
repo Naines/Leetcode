@@ -1,28 +1,37 @@
+public class Monoqueue{
+    Deque<Integer> q = new ArrayDeque<>();
+
+    public void push(Integer n){
+
+        while(!q.isEmpty() && q.peekLast().compareTo(n) <0) q.pollLast();
+        q.offerLast(n);
+    }
+    public Integer front(){
+        return q.peekFirst();
+    }
+
+    public void pop(Integer n){
+        if (n.equals(q.peekFirst())) q.pollFirst();
+    }
+
+}
+
 class Solution {
-   public int[] maxSlidingWindow(int[] a, int k) {		
-		if (a == null || k <= 0) {
+    public int[] maxSlidingWindow(int[] nums, int k) {
+		if (nums == null || k <= 0) {
 			return new int[0];
 		}
-		int n = a.length;
-		int[] r = new int[n-k+1];
-		int ri = 0;
-		// store index
-		Deque<Integer> q = new ArrayDeque<>();
-		for (int i = 0; i < a.length; i++) {
-			// remove numbers out of range k
-			while (!q.isEmpty() && q.peek() < i - k + 1) {
-				q.poll();
-			}
-			// remove smaller numbers in k range as they are useless
-			while (!q.isEmpty() && a[q.peekLast()] < a[i]) {
-				q.pollLast();
-			}
-			// q contains index... r contains content
-			q.offer(i);
-			if (i >= k - 1) {
-				r[ri++] = a[q.peek()];
-			}
-		}
-		return r;
-	}
+        Monoqueue mq = new Monoqueue();
+        int [] res = new int[nums.length-k+1];
+        int idx = 0;
+        for (int i = 0; i< nums.length;i++){
+            if (i<k-1) mq.push(nums[i]);
+            else{
+                mq.push(nums[i]);
+                res[idx++] = mq.front();
+                mq.pop(nums[i-k+1]);
+            }
+        }
+        return res;
+    }
 }
