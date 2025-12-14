@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Naines/Leetcode/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/Naines/Leetcode/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/Naines/Leetcode/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/Naines/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Naines/Leetcode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Naines/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/Naines/Leetcode/tree/master/0152-maximum-product-subarray) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/Naines/Leetcode/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/Naines/Leetcode/tree/master/0031-next-permutation) |
+| [0042-trapping-rain-water](https://github.com/Naines/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Naines/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0908-middle-of-the-linked-list](https://github.com/Naines/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 ## Binary Search
@@ -86,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Naines/Leetcode/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/Naines/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Naines/Leetcode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Naines/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/Naines/Leetcode/tree/master/0152-maximum-product-subarray) |
@@ -130,9 +133,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Naines/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/Naines/Leetcode/tree/master/0496-next-greater-element-i) |
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Naines/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/Naines/Leetcode/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
