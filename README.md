@@ -81,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0007-reverse-integer](https://github.com/Naines/Leetcode/tree/master/0007-reverse-integer) |
 | [0050-powx-n](https://github.com/Naines/Leetcode/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/Naines/Leetcode/tree/master/0062-unique-paths) |
 | [1518-water-bottles](https://github.com/Naines/Leetcode/tree/master/1518-water-bottles) |
 | [2050-count-good-numbers](https://github.com/Naines/Leetcode/tree/master/2050-count-good-numbers) |
 ## Recursion
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/Naines/Leetcode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Naines/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/Naines/Leetcode/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/Naines/Leetcode/tree/master/0062-unique-paths) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Naines/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/Naines/Leetcode/tree/master/0152-maximum-product-subarray) |
 ## Backtracking
@@ -152,4 +154,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Naines/Leetcode/tree/master/0146-lru-cache) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/Naines/Leetcode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
