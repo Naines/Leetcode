@@ -24,6 +24,7 @@ class Solution {
             if(root.left == null) return root.right;
             if(root.right == null) return root.left;
 
+            
             TreeNode rightSmall = root.right;
             while(rightSmall.left!=null) rightSmall = rightSmall.left;
             rightSmall.left = root.left;
