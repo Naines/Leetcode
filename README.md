@@ -141,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Naines/Leetcode/tree/master/0053-maximum-subarray) |
+| [0191-number-of-1-bits](https://github.com/Naines/Leetcode/tree/master/0191-number-of-1-bits) |
 ## Simulation
 |  |
 | ------- |
@@ -256,5 +257,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0191-number-of-1-bits](https://github.com/Naines/Leetcode/tree/master/0191-number-of-1-bits) |
 | [0338-counting-bits](https://github.com/Naines/Leetcode/tree/master/0338-counting-bits) |
 <!---LeetCode Topics End-->
