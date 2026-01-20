@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0371-sum-of-two-integers](https://github.com/Naines/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [1518-water-bottles](https://github.com/Naines/Leetcode/tree/master/1518-water-bottles) |
 | [2050-count-good-numbers](https://github.com/Naines/Leetcode/tree/master/2050-count-good-numbers) |
+| [2119-a-number-after-a-double-reversal](https://github.com/Naines/Leetcode/tree/master/2119-a-number-after-a-double-reversal) |
 ## Recursion
 |  |
 | ------- |
