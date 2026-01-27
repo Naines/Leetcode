@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Naines/Leetcode/tree/master/0001-two-sum) |
+| [0127-word-ladder](https://github.com/Naines/Leetcode/tree/master/0127-word-ladder) |
 | [0146-lru-cache](https://github.com/Naines/Leetcode/tree/master/0146-lru-cache) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Naines/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0496-next-greater-element-i](https://github.com/Naines/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/Naines/Leetcode/tree/master/0022-generate-parentheses) |
 | [0072-edit-distance](https://github.com/Naines/Leetcode/tree/master/0072-edit-distance) |
+| [0127-word-ladder](https://github.com/Naines/Leetcode/tree/master/0127-word-ladder) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Naines/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [1143-longest-common-subsequence](https://github.com/Naines/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [2429-design-a-food-rating-system](https://github.com/Naines/Leetcode/tree/master/2429-design-a-food-rating-system) |
@@ -242,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/Naines/Leetcode/tree/master/0127-word-ladder) |
 | [0200-number-of-islands](https://github.com/Naines/Leetcode/tree/master/0200-number-of-islands) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Naines/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0994-rotting-oranges](https://github.com/Naines/Leetcode/tree/master/0994-rotting-oranges) |
