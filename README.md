@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/Naines/Leetcode/tree/master/0062-unique-paths) |
 | [0371-sum-of-two-integers](https://github.com/Naines/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [1518-water-bottles](https://github.com/Naines/Leetcode/tree/master/1518-water-bottles) |
+| [1922-count-good-numbers](https://github.com/Naines/Leetcode/tree/master/1922-count-good-numbers) |
 | [2050-count-good-numbers](https://github.com/Naines/Leetcode/tree/master/2050-count-good-numbers) |
 | [2119-a-number-after-a-double-reversal](https://github.com/Naines/Leetcode/tree/master/2119-a-number-after-a-double-reversal) |
 ## Recursion
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0050-powx-n](https://github.com/Naines/Leetcode/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/Naines/Leetcode/tree/master/0206-reverse-linked-list) |
+| [1922-count-good-numbers](https://github.com/Naines/Leetcode/tree/master/1922-count-good-numbers) |
 | [2050-count-good-numbers](https://github.com/Naines/Leetcode/tree/master/2050-count-good-numbers) |
 ## Dynamic Programming
 |  |
