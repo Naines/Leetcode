@@ -1,21 +1,17 @@
 class Solution {
     public List<String> generateParenthesis(int n) {
-        //keep track of number of left and right
-        //if(left<n) add (
-        //if(right<left) add )
-        List<String> ans = new ArrayList<>();
-        dfs(n,0,0,"",ans);
-        return ans;
+       List<String> res = new ArrayList<>();
+        dfs(n,"", 0, 0 , res);
+        return res;
     }
 
-    void dfs(int n, int left,int right, String str, List<String> ans){
+    void dfs(int n, String str, int o, int c, List<String> res){
         if(str.length()==2*n){
-            //print result and return
-            ans.add(str);
+            res.add(str);
             return;
         }
 
-        if(left<n) dfs(n,left+1, right, str+"(", ans);
-        if(right<left) dfs(n, left, right+1, str+")", ans);
+        if(o<n) dfs(n, str+"(", o+1, c, res);
+        if(c<o) dfs(n, str+")", o, c+1, res);
     }
 }
