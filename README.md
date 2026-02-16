@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/Naines/Leetcode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/Naines/Leetcode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/Naines/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0216-combination-sum-iii](https://github.com/Naines/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0238-product-of-array-except-self](https://github.com/Naines/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/Naines/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0496-next-greater-element-i](https://github.com/Naines/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/Naines/Leetcode/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/Naines/Leetcode/tree/master/0051-n-queens) |
 | [0090-subsets-ii](https://github.com/Naines/Leetcode/tree/master/0090-subsets-ii) |
+| [0216-combination-sum-iii](https://github.com/Naines/Leetcode/tree/master/0216-combination-sum-iii) |
 ## Sorting
 |  |
 | ------- |
