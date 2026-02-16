@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Naines/Leetcode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/Naines/Leetcode/tree/master/0056-merge-intervals) |
 | [0064-minimum-path-sum](https://github.com/Naines/Leetcode/tree/master/0064-minimum-path-sum) |
+| [0079-word-search](https://github.com/Naines/Leetcode/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Naines/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/Naines/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0090-subsets-ii](https://github.com/Naines/Leetcode/tree/master/0090-subsets-ii) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Naines/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/Naines/Leetcode/tree/master/0022-generate-parentheses) |
 | [0072-edit-distance](https://github.com/Naines/Leetcode/tree/master/0072-edit-distance) |
+| [0079-word-search](https://github.com/Naines/Leetcode/tree/master/0079-word-search) |
 | [0127-word-ladder](https://github.com/Naines/Leetcode/tree/master/0127-word-ladder) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Naines/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0953-verifying-an-alien-dictionary](https://github.com/Naines/Leetcode/tree/master/0953-verifying-an-alien-dictionary) |
@@ -158,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/Naines/Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Naines/Leetcode/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/Naines/Leetcode/tree/master/0051-n-queens) |
+| [0079-word-search](https://github.com/Naines/Leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Naines/Leetcode/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/Naines/Leetcode/tree/master/0216-combination-sum-iii) |
 ## Sorting
@@ -230,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0064-minimum-path-sum](https://github.com/Naines/Leetcode/tree/master/0064-minimum-path-sum) |
+| [0079-word-search](https://github.com/Naines/Leetcode/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/Naines/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0200-number-of-islands](https://github.com/Naines/Leetcode/tree/master/0200-number-of-islands) |
 | [0994-rotting-oranges](https://github.com/Naines/Leetcode/tree/master/0994-rotting-oranges) |
@@ -246,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/Naines/Leetcode/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Naines/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/Naines/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0133-clone-graph](https://github.com/Naines/Leetcode/tree/master/0133-clone-graph) |
