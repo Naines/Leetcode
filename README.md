@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/Naines/Leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Naines/Leetcode/tree/master/0140-word-break-ii) |
 | [0146-lru-cache](https://github.com/Naines/Leetcode/tree/master/0146-lru-cache) |
+| [0424-longest-repeating-character-replacement](https://github.com/Naines/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Naines/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0496-next-greater-element-i](https://github.com/Naines/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Naines/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/Naines/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/Naines/Leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Naines/Leetcode/tree/master/0140-word-break-ii) |
+| [0424-longest-repeating-character-replacement](https://github.com/Naines/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Naines/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0953-verifying-an-alien-dictionary](https://github.com/Naines/Leetcode/tree/master/0953-verifying-an-alien-dictionary) |
 | [1143-longest-common-subsequence](https://github.com/Naines/Leetcode/tree/master/1143-longest-common-subsequence) |
@@ -213,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Naines/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/Naines/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/Naines/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0424-longest-repeating-character-replacement](https://github.com/Naines/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Naines/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0713-subarray-product-less-than-k](https://github.com/Naines/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0904-fruit-into-baskets](https://github.com/Naines/Leetcode/tree/master/0904-fruit-into-baskets) |
