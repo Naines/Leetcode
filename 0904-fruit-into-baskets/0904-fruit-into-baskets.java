@@ -9,6 +9,7 @@ class Solution {
                 if(map.get(fruits[l])==0) map.remove(fruits[l]);
                 l++;
             }
+            if(map.size()<=2)
             ans = Math.max(ans, r-l+1);
         }
         return ans;
