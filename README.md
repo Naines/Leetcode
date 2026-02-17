@@ -202,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/Naines/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/Naines/Leetcode/tree/master/0140-word-break-ii) |
 | [0216-combination-sum-iii](https://github.com/Naines/Leetcode/tree/master/0216-combination-sum-iii) |
+| [0401-binary-watch](https://github.com/Naines/Leetcode/tree/master/0401-binary-watch) |
 ## Sorting
 |  |
 | ------- |
@@ -361,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0191-number-of-1-bits](https://github.com/Naines/Leetcode/tree/master/0191-number-of-1-bits) |
 | [0338-counting-bits](https://github.com/Naines/Leetcode/tree/master/0338-counting-bits) |
 | [0371-sum-of-two-integers](https://github.com/Naines/Leetcode/tree/master/0371-sum-of-two-integers) |
+| [0401-binary-watch](https://github.com/Naines/Leetcode/tree/master/0401-binary-watch) |
 ## Graph Theory
 |  |
 | ------- |
