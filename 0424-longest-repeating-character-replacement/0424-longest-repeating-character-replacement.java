@@ -7,7 +7,7 @@ class Solution {
             map.put(ch, map.getOrDefault(ch, 0)+1);
             maxf = Math.max(maxf, map.get(ch));
 
-            if((r-l+1)-maxf >k){
+            while((r-l+1)-maxf >k){
                 //resize
                 map.put(s.charAt(l), map.get(s.charAt(l))-1);
                 l++;
