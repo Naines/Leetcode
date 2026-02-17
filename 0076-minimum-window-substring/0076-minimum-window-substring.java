@@ -7,7 +7,7 @@ class Solution {
         for(int r=0;r<n1;r++){
             if(map[s[r]]>0) cnt++;
             map[s[r]]--;
-            System.out.println(r+" "+l+" "+s[r]+" "+cnt);
+            //System.out.println(r+" "+l+" "+s[r]+" "+cnt);
             while(cnt==t.length){
                 if((r-l+1)<ans){
                     ans = r-l+1;
@@ -18,7 +18,7 @@ class Solution {
                 l++;
             }
         }
-        System.out.println(startIndex+" "+ans);
+        //System.out.println(startIndex+" "+ans);
         return startIndex==-1?"":str.substring(startIndex, startIndex+ans);
     }
 }
