@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Naines/Leetcode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/Naines/Leetcode/tree/master/0056-merge-intervals) |
 | [0064-minimum-path-sum](https://github.com/Naines/Leetcode/tree/master/0064-minimum-path-sum) |
+| [0078-subsets](https://github.com/Naines/Leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Naines/Leetcode/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Naines/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/Naines/Leetcode/tree/master/0085-maximal-rectangle) |
@@ -192,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/Naines/Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Naines/Leetcode/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/Naines/Leetcode/tree/master/0051-n-queens) |
+| [0078-subsets](https://github.com/Naines/Leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Naines/Leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Naines/Leetcode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/Naines/Leetcode/tree/master/0131-palindrome-partitioning) |
@@ -350,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/Naines/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Naines/Leetcode/tree/master/0090-subsets-ii) |
 | [0190-reverse-bits](https://github.com/Naines/Leetcode/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/Naines/Leetcode/tree/master/0191-number-of-1-bits) |
