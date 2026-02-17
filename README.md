@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/Naines/Leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Naines/Leetcode/tree/master/0140-word-break-ii) |
 | [0146-lru-cache](https://github.com/Naines/Leetcode/tree/master/0146-lru-cache) |
+| [0208-implement-trie-prefix-tree](https://github.com/Naines/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/Naines/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Naines/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0496-next-greater-element-i](https://github.com/Naines/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/Naines/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/Naines/Leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Naines/Leetcode/tree/master/0140-word-break-ii) |
+| [0208-implement-trie-prefix-tree](https://github.com/Naines/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/Naines/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Naines/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0953-verifying-an-alien-dictionary](https://github.com/Naines/Leetcode/tree/master/0953-verifying-an-alien-dictionary) |
@@ -103,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/Naines/Leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/Naines/Leetcode/tree/master/0155-min-stack) |
+| [0208-implement-trie-prefix-tree](https://github.com/Naines/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0295-find-median-from-data-stream](https://github.com/Naines/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [2429-design-a-food-rating-system](https://github.com/Naines/Leetcode/tree/master/2429-design-a-food-rating-system) |
 ## Heap (Priority Queue)
@@ -379,6 +382,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0139-word-break](https://github.com/Naines/Leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Naines/Leetcode/tree/master/0140-word-break-ii) |
+| [0208-implement-trie-prefix-tree](https://github.com/Naines/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 ## Memoization
 |  |
 | ------- |
