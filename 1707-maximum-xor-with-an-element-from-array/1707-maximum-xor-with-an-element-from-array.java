@@ -52,10 +52,12 @@ class Solution {
                 root.insert(nums[idx]);
                 idx++;
             }
-            if(nums[0]>q[1])
-                ans[q[2]] = -1;
-            else
-                ans[q[2]] = root.getMax(root,q[0]);
+          
+            int maxXor = -1;
+            if(idx!=0){
+                maxXor=root.getMax(root, q[0]);
+            }
+            ans[q[2]] = maxXor;
         }
 
         return ans;
