@@ -1,14 +1,15 @@
 class Solution {
     public int repeatedStringMatch(String a, String b) {
-        String tmpa=a;
+        StringBuilder sb = new StringBuilder();
+        sb.append(a);
         int ans =1;
-        while(a.length()<b.length()){
-            a+=tmpa;
-            ans++;
+        while(sb.length()<b.length()){
+           sb.append(a);
+           ans++;
         }
-        if(substr(b,a)) return ans;
-        a+=tmpa;
-        if(substr(b,a)) return ans+1;
+        if(substr(b,sb.toString())) return ans;
+        sb.append(a);
+        if(substr(b,sb.toString())) return ans+1;
         return -1;
     }
 
