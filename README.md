@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Naines/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Naines/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0686-repeated-string-match](https://github.com/Naines/Leetcode/tree/master/0686-repeated-string-match) |
+| [0696-count-binary-substrings](https://github.com/Naines/Leetcode/tree/master/0696-count-binary-substrings) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Naines/Leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0953-verifying-an-alien-dictionary](https://github.com/Naines/Leetcode/tree/master/0953-verifying-an-alien-dictionary) |
 | [1143-longest-common-subsequence](https://github.com/Naines/Leetcode/tree/master/1143-longest-common-subsequence) |
@@ -158,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Naines/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Naines/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0295-find-median-from-data-stream](https://github.com/Naines/Leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0696-count-binary-substrings](https://github.com/Naines/Leetcode/tree/master/0696-count-binary-substrings) |
 | [0908-middle-of-the-linked-list](https://github.com/Naines/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Naines/Leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 ## Binary Search
