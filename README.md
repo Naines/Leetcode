@@ -190,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Naines/Leetcode/tree/master/0204-count-primes) |
 | [0282-expression-add-operators](https://github.com/Naines/Leetcode/tree/master/0282-expression-add-operators) |
 | [0371-sum-of-two-integers](https://github.com/Naines/Leetcode/tree/master/0371-sum-of-two-integers) |
+| [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Naines/Leetcode/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Naines/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1518-water-bottles](https://github.com/Naines/Leetcode/tree/master/1518-water-bottles) |
 | [1922-count-good-numbers](https://github.com/Naines/Leetcode/tree/master/1922-count-good-numbers) |
@@ -409,6 +410,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0401-binary-watch](https://github.com/Naines/Leetcode/tree/master/0401-binary-watch) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Naines/Leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0693-binary-number-with-alternating-bits](https://github.com/Naines/Leetcode/tree/master/0693-binary-number-with-alternating-bits) |
+| [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Naines/Leetcode/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/Naines/Leetcode/tree/master/1707-maximum-xor-with-an-element-from-array) |
 ## Graph Theory
 |  |
