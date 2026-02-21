@@ -11,6 +11,6 @@ class Solution {
             }
         }
 
-        return ub+k+1;
+        return lb+k;
     }
 }
