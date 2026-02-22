@@ -53,7 +53,7 @@ class Solution {
         while(lb<=ub){
             int m = lb+(ub-lb)/2;
             int count = count(m ,  nums1, nums2);
-            System.out.println(m+" "+count+" "+k);
+            //System.out.println(m+" "+count+" "+k);
             if(count(m,  nums1, nums2)>=k){
                 ans = m;
                 //System.out.println("Answer updated to "+ans);
