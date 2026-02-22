@@ -39,12 +39,12 @@ class Solution {
     int kthEle(int k, int nums1[], int nums2[]){
         int min1 = 1000000, min2=1000000, max1=0, max2=0;
         if(nums1.length!=0){
-            min1=Arrays.stream(nums1).min().getAsInt();
-            max1=Arrays.stream(nums1).max().getAsInt();
+            min1=nums1[0];
+            max1=nums1[nums1.length-1];
         }
         if(nums2.length!=0){
-            min2=Arrays.stream(nums2).min().getAsInt();
-             max2=Arrays.stream(nums2).max().getAsInt();
+            min2=nums2[0];
+             max2=nums2[nums2.length-1];
         }
 
         int lb = Math.min(min1, min2);
