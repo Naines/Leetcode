@@ -5,7 +5,7 @@ class Solution {
         int total = n1+n2;
         if(total%2==1){
             int center =  kthEle((total+1)/2, nums1, nums2);
-            System.out.println("center="+center);
+            //System.out.println("center="+center);
             return center;
         }else{
             int left =  kthEle(total/2, nums1,nums2);
