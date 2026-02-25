@@ -19,16 +19,16 @@ class Solution {
         int n = nums.length;
         Random rand = new Random();
         while(true){
-            int partIdx = partition( nums, l, r, l+rand.nextInt(r-l+1));
+            int partIdx = partition( nums, l, r);
             if(partIdx==n-k) return nums[n-k];
             else if(partIdx>n-k) r = partIdx-1;
             else l = partIdx + 1;
         } 
     }
 
-    int partition(int nums[], int l, int r, int rand){
-        int pivot = nums[rand];
-        swap(nums, rand, r);
+    int partition(int nums[], int l, int r){
+        int pivot = nums[r];
+        // swap(nums, rand, r);
         int i = l -1;
         for(int j=l; j<=r-1;j++){
             if(pivot> nums[j]){
@@ -47,5 +47,13 @@ class Solution {
         int temp = nums[l];
         nums[l]=nums[r];
         nums[r]=temp;
+    }
+
+    private void shuffle(int a[]) {
+        final Random random = new Random();
+        for(int ind = 0; ind < a.length; ind++) {
+            final int r = random.nextInt(ind + 1);
+            swap(a, ind, r);
+        }
     }
 }
