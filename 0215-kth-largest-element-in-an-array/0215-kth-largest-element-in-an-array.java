@@ -17,7 +17,7 @@ class Solution {
 
         int l =0 , r= nums.length-1;
         int n = nums.length;
-        Random rand = new Random();
+        shuffle(nums);
         while(true){
             int partIdx = partition( nums, l, r);
             if(partIdx==n-k) return nums[n-k];
