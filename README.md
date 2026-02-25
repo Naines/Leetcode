@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Naines/Leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Naines/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Naines/Leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
+| [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Naines/Leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1331-rank-transform-of-an-array](https://github.com/Naines/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Naines/Leetcode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/Naines/Leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0953-verifying-an-alien-dictionary](https://github.com/Naines/Leetcode/tree/master/0953-verifying-an-alien-dictionary) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Naines/Leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Naines/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
+| [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Naines/Leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1331-rank-transform-of-an-array](https://github.com/Naines/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Naines/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Naines/Leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
@@ -281,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Naines/Leetcode/tree/master/0621-task-scheduler) |
 | [0761-special-binary-string](https://github.com/Naines/Leetcode/tree/master/0761-special-binary-string) |
 | [0846-hand-of-straights](https://github.com/Naines/Leetcode/tree/master/0846-hand-of-straights) |
+| [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Naines/Leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1331-rank-transform-of-an-array](https://github.com/Naines/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Naines/Leetcode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Naines/Leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
@@ -441,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/Naines/Leetcode/tree/master/0621-task-scheduler) |
 | [0846-hand-of-straights](https://github.com/Naines/Leetcode/tree/master/0846-hand-of-straights) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Naines/Leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
+| [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Naines/Leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Naines/Leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 ## Bit Manipulation
 |  |
