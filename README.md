@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/Naines/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Naines/Leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0455-assign-cookies](https://github.com/Naines/Leetcode/tree/master/0455-assign-cookies) |
+| [0485-max-consecutive-ones](https://github.com/Naines/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0496-next-greater-element-i](https://github.com/Naines/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Naines/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0621-task-scheduler](https://github.com/Naines/Leetcode/tree/master/0621-task-scheduler) |
