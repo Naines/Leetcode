@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/Naines/Leetcode/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Naines/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/Naines/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0135-candy](https://github.com/Naines/Leetcode/tree/master/0135-candy) |
 | [0139-word-break](https://github.com/Naines/Leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Naines/Leetcode/tree/master/0140-word-break-ii) |
 | [0152-maximum-product-subarray](https://github.com/Naines/Leetcode/tree/master/0152-maximum-product-subarray) |
@@ -494,6 +495,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0055-jump-game](https://github.com/Naines/Leetcode/tree/master/0055-jump-game) |
+| [0135-candy](https://github.com/Naines/Leetcode/tree/master/0135-candy) |
 | [0410-split-array-largest-sum](https://github.com/Naines/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/Naines/Leetcode/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/Naines/Leetcode/tree/master/0621-task-scheduler) |
