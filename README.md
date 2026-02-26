@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Naines/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/Naines/Leetcode/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Naines/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/Naines/Leetcode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/Naines/Leetcode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/Naines/Leetcode/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/Naines/Leetcode/tree/master/0204-count-primes) |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/Naines/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/Naines/Leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Naines/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0169-majority-element](https://github.com/Naines/Leetcode/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/Naines/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0347-top-k-frequent-elements](https://github.com/Naines/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/Naines/Leetcode/tree/master/0355-design-twitter) |
@@ -323,6 +325,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/Naines/Leetcode/tree/master/0047-permutations-ii) |
 | [0056-merge-intervals](https://github.com/Naines/Leetcode/tree/master/0056-merge-intervals) |
 | [0148-sort-list](https://github.com/Naines/Leetcode/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/Naines/Leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Naines/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/Naines/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Naines/Leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -342,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/Naines/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/Naines/Leetcode/tree/master/0053-maximum-subarray) |
 | [0148-sort-list](https://github.com/Naines/Leetcode/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/Naines/Leetcode/tree/master/0169-majority-element) |
 | [0190-reverse-bits](https://github.com/Naines/Leetcode/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/Naines/Leetcode/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Naines/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -560,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/Naines/Leetcode/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/Naines/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/Naines/Leetcode/tree/master/0621-task-scheduler) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Naines/Leetcode/tree/master/0992-subarrays-with-k-different-integers) |
