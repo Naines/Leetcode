@@ -1,5 +1,8 @@
 class Solution {
     public int minGroups(int[][] intervals) {
+
+        //line sweep, works as end time is endTime+1
+        //calculate maxSum at any moment in sweep
         int n = intervals.length;
         int count[]=new int[1000002];
         int max = -1;
