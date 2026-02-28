@@ -14,12 +14,13 @@ class Solution {
     //11000 | 11 = 11011
 
     long mod= ((int)1e9)+7;
+    
 
     public int concatenatedBinary(int n) {
-        long res = 0;
+        long res = 0, countBits = 0;
         //o(Nlogn)
         for(int i=1;i<=n;i++){
-            int countBits = Integer.toString(i, 2).length();
+            if((i&(i-1)) == 0) countBits++;;
             res = res<<countBits;
             res = res|i;
             res = res%mod;
