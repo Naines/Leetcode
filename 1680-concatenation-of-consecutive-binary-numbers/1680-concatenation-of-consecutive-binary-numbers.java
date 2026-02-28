@@ -13,9 +13,7 @@ class Solution {
     //100 | 10 = 110
     //11000 | 11 = 11011
 
-    long mod= (int)1e9 +7;
-    
-
+    long mod= 1000000007;
     public int concatenatedBinary(int n) {
         long res = 0, countBits = 0;
         for(int i=1;i<=n;i++){
