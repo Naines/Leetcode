@@ -16,17 +16,6 @@ class Solution {
             }
         }
 
-        // display(dp);
         return dp[h][w];
-        
-    }
-    void display(int dp[][]){
-        int h=dp.length, w=dp[0].length;
-        for(int i=0;i<h;i++){
-            for(int j=0;j<w;j++){
-                System.out.print(dp[i][j]+" ");
-            }
-            System.out.println();
-        }
     }
 }
