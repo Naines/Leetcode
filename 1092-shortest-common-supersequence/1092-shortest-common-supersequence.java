@@ -1,42 +1,8 @@
 class Solution {
     public String shortestCommonSupersequence(String str1, String str2) {
-        StringBuilder sb = longestCommonSubsequence(str1, str2);
-        // String lcs = sb.toString();
-        // //System.out.println(lcs);
-        // int p = 0, i = 0;
-
-        // //ab, abac, cab
-        // //abacc
-        // while (i < str1.length()) {
-        //     if(p==lcs.length()) {
-        //         sb.append(str1.charAt(i++));
-        //         continue;
-        //     }
-        //     if (str1.charAt(i) == lcs.charAt(p)) {
-        //         p++;
-        //         i++;
-        //     } else {
-        //         sb.append(str1.charAt(i));
-        //         i++;
-        //     }
-        // }
-        // p = 0;
-        // i = 0;
-        // while (i < str2.length()) {
-        //     if (p == lcs.length()) {
-        //         sb.append(str2.charAt(i++));
-        //         continue;
-        //     }
-        //     if (str2.charAt(i) == lcs.charAt(p)) {
-        //         p++;
-        //     } else {
-        //         sb.insert(0,str2.charAt(i));
-        //     }
-        //     i++;
-        // }
-        return sb.toString();
+       return longestCommonSubsequence(str1, str2);
     }
-    public StringBuilder longestCommonSubsequence(String text1, String text2) {
+    public String longestCommonSubsequence(String text1, String text2) {
         int m =text1.length(), n=text2.length();
         int dp[][]=new int[m+1][n+1];
         for(int i=1;i<=m;i++){
@@ -72,6 +38,6 @@ class Solution {
             sb.append(text2.charAt(j-1));
             j--;
         }
-        return sb.reverse();
+        return sb.reverse().toString();
     }
 }
