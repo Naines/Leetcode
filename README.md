@@ -144,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/Naines/Leetcode/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Naines/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/Naines/Leetcode/tree/master/0038-count-and-say) |
+| [0044-wildcard-matching](https://github.com/Naines/Leetcode/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/Naines/Leetcode/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/Naines/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/Naines/Leetcode/tree/master/0079-word-search) |
@@ -282,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/Naines/Leetcode/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/Naines/Leetcode/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/Naines/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Naines/Leetcode/tree/master/0234-palindrome-linked-list) |
@@ -292,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/Naines/Leetcode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Naines/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0044-wildcard-matching](https://github.com/Naines/Leetcode/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/Naines/Leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Naines/Leetcode/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/Naines/Leetcode/tree/master/0062-unique-paths) |
@@ -524,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/Naines/Leetcode/tree/master/0044-wildcard-matching) |
 | [0055-jump-game](https://github.com/Naines/Leetcode/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Naines/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0135-candy](https://github.com/Naines/Leetcode/tree/master/0135-candy) |
