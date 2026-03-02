@@ -2,7 +2,8 @@ class Solution {
     //dp[i][j] -> number of subsequences of j in i
     //if match -> dp[i-1][j]+dp[i-1][j-1]
     //else dp[i-1][j]
-    //base case
+    //base case: s="bb", t="", return 1
+    //s="", t="abc", return 0
 
     
     public int numDistinct(String s, String t) {
