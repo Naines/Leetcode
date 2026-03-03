@@ -26,8 +26,8 @@ class Solution {
             // }
         }
 
-        System.out.println(Arrays.toString(lis));
-        System.out.println(Arrays.toString(lds));
+        // System.out.println(Arrays.toString(lis));
+        // System.out.println(Arrays.toString(lds));
         int ans =0;
         for(int i=0;i<n;i++){
            if(lis[i]>1 && lds[i]>1){
