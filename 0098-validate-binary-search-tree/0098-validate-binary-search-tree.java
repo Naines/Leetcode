@@ -14,18 +14,20 @@
  * }
  */
 class Solution {
-   TreeNode par; 
     public boolean isValidBST(TreeNode root) {
-        return find(root);
-    }
-
-    boolean find(TreeNode root){
-        if(root==null) return true;
-        if(!find(root.left)) return false;
-        if(par!=null && par.val>=root.val) return false;
-        par=root;
-        if(!find(root.right)) return false;
+        if (root == null) return true;
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode pre = null;
+        while (root != null || !stack.isEmpty()) {
+            while (root != null) {
+                stack.push(root);
+                root = root.left;
+            }
+            root = stack.pop();
+            if(pre != null && root.val <= pre.val) return false;
+            pre = root;
+            root = root.right;
+        }
         return true;
-
     }
 }
