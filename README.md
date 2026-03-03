@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Naines/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Naines/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0283-move-zeroes](https://github.com/Naines/Leetcode/tree/master/0283-move-zeroes) |
+| [0300-longest-increasing-subsequence](https://github.com/Naines/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Naines/Leetcode/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/Naines/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0410-split-array-largest-sum](https://github.com/Naines/Leetcode/tree/master/0410-split-array-largest-sum) |
@@ -251,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Naines/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/Naines/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Naines/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0300-longest-increasing-subsequence](https://github.com/Naines/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/Naines/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Naines/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/Naines/Leetcode/tree/master/0704-binary-search) |
@@ -312,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/Naines/Leetcode/tree/master/0140-word-break-ii) |
 | [0152-maximum-product-subarray](https://github.com/Naines/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/Naines/Leetcode/tree/master/0198-house-robber) |
+| [0300-longest-increasing-subsequence](https://github.com/Naines/Leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Naines/Leetcode/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/Naines/Leetcode/tree/master/0338-counting-bits) |
 | [0410-split-array-largest-sum](https://github.com/Naines/Leetcode/tree/master/0410-split-array-largest-sum) |
