@@ -23,12 +23,13 @@ class Solution {
         int n = nums.length;
         int tail[] = new int[n], len=0;
         for(int i=0;i<n;i++){
-            if(len==0 || nums[i]>tail[len-1]){
-                tail[len++] = nums[i];
-                continue;
-            }
+            // if(len==0 || nums[i]>tail[len-1]){
+            //     tail[len++] = nums[i];
+            //     continue;
+            // }
             int idx = ceil(tail, 0, len, nums[i]);      
             tail[idx] = nums[i];
+            if(idx==len) len++;
         }
         return len;
     }
