@@ -8,7 +8,7 @@ class Solution {
             count[i]=1;
             for(int j=0;j<i;j++){
                 if(nums[j]<nums[i]){
-                    //lis dont change for same length subsequence
+                     //lis dont change for same length subsequence
                     if(lis[i]==lis[j]+1){
                         count[i]+=count[j];
                     }
@@ -16,6 +16,8 @@ class Solution {
                         lis[i]=lis[j]+1;
                         count[i]=count[j];
                     }
+
+                   
                 }
             }
            maxLis = Math.max(maxLis, lis[i]);
