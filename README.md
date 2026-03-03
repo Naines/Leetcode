@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Naines/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0704-binary-search](https://github.com/Naines/Leetcode/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/Naines/Leetcode/tree/master/0713-subarray-product-less-than-k) |
+| [0845-longest-mountain-in-array](https://github.com/Naines/Leetcode/tree/master/0845-longest-mountain-in-array) |
 | [0846-hand-of-straights](https://github.com/Naines/Leetcode/tree/master/0846-hand-of-straights) |
 | [0860-lemonade-change](https://github.com/Naines/Leetcode/tree/master/0860-lemonade-change) |
 | [0875-koko-eating-bananas](https://github.com/Naines/Leetcode/tree/master/0875-koko-eating-bananas) |
@@ -239,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/Naines/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0455-assign-cookies](https://github.com/Naines/Leetcode/tree/master/0455-assign-cookies) |
 | [0696-count-binary-substrings](https://github.com/Naines/Leetcode/tree/master/0696-count-binary-substrings) |
+| [0845-longest-mountain-in-array](https://github.com/Naines/Leetcode/tree/master/0845-longest-mountain-in-array) |
 | [0876-middle-of-the-linked-list](https://github.com/Naines/Leetcode/tree/master/0876-middle-of-the-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/Naines/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [1048-longest-string-chain](https://github.com/Naines/Leetcode/tree/master/1048-longest-string-chain) |
@@ -327,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/Naines/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0410-split-array-largest-sum](https://github.com/Naines/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Naines/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [0845-longest-mountain-in-array](https://github.com/Naines/Leetcode/tree/master/0845-longest-mountain-in-array) |
 | [1048-longest-string-chain](https://github.com/Naines/Leetcode/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/Naines/Leetcode/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/Naines/Leetcode/tree/master/1143-longest-common-subsequence) |
@@ -616,6 +619,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Naines/Leetcode/tree/master/0204-count-primes) |
+| [0845-longest-mountain-in-array](https://github.com/Naines/Leetcode/tree/master/0845-longest-mountain-in-array) |
 ## Number Theory
 |  |
 | ------- |
