@@ -128,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Naines/Leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0424-longest-repeating-character-replacement](https://github.com/Naines/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Naines/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0460-lfu-cache](https://github.com/Naines/Leetcode/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/Naines/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0621-task-scheduler](https://github.com/Naines/Leetcode/tree/master/0621-task-scheduler) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Naines/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -193,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/Naines/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0295-find-median-from-data-stream](https://github.com/Naines/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0355-design-twitter](https://github.com/Naines/Leetcode/tree/master/0355-design-twitter) |
+| [0460-lfu-cache](https://github.com/Naines/Leetcode/tree/master/0460-lfu-cache) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Naines/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [2429-design-a-food-rating-system](https://github.com/Naines/Leetcode/tree/master/2429-design-a-food-rating-system) |
 ## Heap (Priority Queue)
@@ -230,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0237-delete-node-in-a-linked-list](https://github.com/Naines/Leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Naines/Leetcode/tree/master/0328-odd-even-linked-list) |
 | [0355-design-twitter](https://github.com/Naines/Leetcode/tree/master/0355-design-twitter) |
+| [0460-lfu-cache](https://github.com/Naines/Leetcode/tree/master/0460-lfu-cache) |
 | [0876-middle-of-the-linked-list](https://github.com/Naines/Leetcode/tree/master/0876-middle-of-the-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/Naines/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Naines/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -479,6 +482,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Naines/Leetcode/tree/master/0146-lru-cache) |
+| [0460-lfu-cache](https://github.com/Naines/Leetcode/tree/master/0460-lfu-cache) |
 ## Combinatorics
 |  |
 | ------- |
