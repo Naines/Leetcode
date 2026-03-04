@@ -5,7 +5,7 @@ class Solution {
     //Appraoch 3L sorting + 2 pointers
     public List<List<Integer>> threeSum(int[] nums) {
     //   return findTripletsHashMap(nums);
-        return approach3(nums);
+         return approach3(nums);
     }
 
     //const = i
@@ -30,7 +30,7 @@ class Solution {
                     res.add(Arrays.asList(nums[i], nums[left], nums[right]));
                     right--;
                     left++;
-                      while (left < right && nums[left] == nums[left - 1])
+                    while (left < right && nums[left] == nums[left - 1])
                         left++;
                     while (left < right && nums[right] == nums[right + 1])
                         right--;
