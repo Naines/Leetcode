@@ -10,7 +10,7 @@ class Solution {
         this.k = k;
         this.trgt = sum/k;
         this.len = n;
-        System.out.println(trgt);
+        // System.out.println(trgt);
         return dfs(0, k, 0, new boolean[len]); //state - currSum, currGrp, currIdx
     }
 
