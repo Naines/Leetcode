@@ -3,13 +3,14 @@ class Solution {
     int len, trgt;
     public boolean makesquare(int[] matchsticks) {
         int sum = Arrays.stream(matchsticks).sum();
-        if(sum%4!=0){
-            return false;
-        }
-        Arrays.sort(matchsticks);
         this.arr = matchsticks;
         this.len = matchsticks.length;
         this.trgt = sum/4;
+        Arrays.sort(matchsticks);
+        if(sum%4!=0 || matchsticks[len-1]>trgt){
+            return false;
+        }
+      
         return dfs(0, 0, 4, new boolean[len]);//currSum, currIdx, k
     }
 
