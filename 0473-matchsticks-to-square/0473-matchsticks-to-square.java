@@ -6,6 +6,7 @@ class Solution {
         if(sum%4!=0){
             return false;
         }
+        Arrays.sort(matchsticks);
         this.arr = matchsticks;
         this.len = matchsticks.length;
         this.trgt = sum/4;
