@@ -26,7 +26,7 @@ class Solution {
             ans.add(new ArrayList<>(list));
             return;
         }
-        System.out.println("IN AT"+s);
+        // System.out.println("IN AT"+s);
         for(int i=0;i<s.length();i++){
             String left = s.substring(0, i+1);
             if(isPalin(left)){
