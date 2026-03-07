@@ -1,31 +1,39 @@
 class Solution {
+    int dirs[][]={{1,0},{-1,0},{0,1},{0,-1}};
+    char board[][];
+    String word ="";
     public boolean exist(char[][] board, String word) {
-        int h = board.length, w =board[0].length;
+        int h =board.length, w=board[0].length;
+        this.board = board;
+        this.word = word;
         boolean vis[][]=new boolean[h][w];
-        for(int i=0;i<board.length;i++){
-            for(int j=0;j<board[0].length;j++){
-                if (word.charAt(0)==board[i][j] && dfs(i, j, board, word.toCharArray(), vis,0))
-                    return true;
+        boolean res = false;
+        for(int i=0;i<h;i++){
+            for(int j=0;j<w;j++){
+                if(word.charAt(0) == board[i][j] && vis[i][j]==false){
+                    //System.out.println(i+" "+j);
+                    res = res || dfs(i, j, vis, 0);
+                }
             }
         }
-        return false;
+        return res;
     }
 
-    boolean dfs(int r, int c, char board[][], char word[], boolean vis[][], int idx){
-        if(idx==word.length) return true;
-        if(isLegal(r,c, board, vis, word[idx])){
-           vis[r][c]=true;
-            if(dfs(r+1, c, board, word, vis, idx+1) ||
-            dfs(r-1, c, board, word, vis, idx+1) ||
-            dfs(r, c+1, board, word, vis, idx+1) ||
-            dfs(r, c-1, board, word, vis, idx+1)
-            )return true;
-           vis[r][c]=false; 
+    boolean dfs(int i, int j, boolean vis[][], int idx){
+        if(idx==word.length()) return true;
+        if(isillegal(i,j, vis, idx)) return false;
+       // System.out.println("IN AT "+i+" "+j+" "+board[i][j]);
+        vis[i][j]=true;
+        boolean res = false;
+        for(int k=0;k<4;k++){
+            // if(isillegal(dirs[k][0]+i, dirs[k][1]+j, vis, idx+1)) continue;
+            res = res || dfs(dirs[k][0]+i, dirs[k][1]+j, vis, idx+1);
         }
-        return false;
+        vis[i][j]=false;
+        return res;
     }
 
-    boolean isLegal(int r, int c, char board[][], boolean vis[][], char ch){
-        return r>=0 && c>=0 && r<board.length && c<board[0].length && !vis[r][c] && board[r][c]==ch ;
+    boolean isillegal(int i, int j, boolean vis[][], int idx){
+        return idx>word.length() || i<0 || j<0 || i>=board.length || j>=board[0].length || vis[i][j]==true || word.charAt(idx)!= board[i][j];
     }
 }
