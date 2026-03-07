@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Naines/Leetcode/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/Naines/Leetcode/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/Naines/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0212-word-search-ii](https://github.com/Naines/Leetcode/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Naines/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/Naines/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0238-product-of-array-except-self](https://github.com/Naines/Leetcode/tree/master/0238-product-of-array-except-self) |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/Naines/Leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Naines/Leetcode/tree/master/0140-word-break-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/Naines/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0212-word-search-ii](https://github.com/Naines/Leetcode/tree/master/0212-word-search-ii) |
 | [0282-expression-add-operators](https://github.com/Naines/Leetcode/tree/master/0282-expression-add-operators) |
 | [0392-is-subsequence](https://github.com/Naines/Leetcode/tree/master/0392-is-subsequence) |
 | [0424-longest-repeating-character-replacement](https://github.com/Naines/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
@@ -385,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0093-restore-ip-addresses](https://github.com/Naines/Leetcode/tree/master/0093-restore-ip-addresses) |
 | [0131-palindrome-partitioning](https://github.com/Naines/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/Naines/Leetcode/tree/master/0140-word-break-ii) |
+| [0212-word-search-ii](https://github.com/Naines/Leetcode/tree/master/0212-word-search-ii) |
 | [0216-combination-sum-iii](https://github.com/Naines/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0282-expression-add-operators](https://github.com/Naines/Leetcode/tree/master/0282-expression-add-operators) |
 | [0401-binary-watch](https://github.com/Naines/Leetcode/tree/master/0401-binary-watch) |
@@ -512,6 +515,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/Naines/Leetcode/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/Naines/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0200-number-of-islands](https://github.com/Naines/Leetcode/tree/master/0200-number-of-islands) |
+| [0212-word-search-ii](https://github.com/Naines/Leetcode/tree/master/0212-word-search-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Naines/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0994-rotting-oranges](https://github.com/Naines/Leetcode/tree/master/0994-rotting-oranges) |
 ## Tree
@@ -664,6 +668,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/Naines/Leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Naines/Leetcode/tree/master/0140-word-break-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/Naines/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0212-word-search-ii](https://github.com/Naines/Leetcode/tree/master/0212-word-search-ii) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Naines/Leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/Naines/Leetcode/tree/master/1707-maximum-xor-with-an-element-from-array) |
 ## Memoization
