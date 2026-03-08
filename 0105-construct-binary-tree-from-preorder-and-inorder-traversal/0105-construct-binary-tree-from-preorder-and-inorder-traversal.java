@@ -27,7 +27,7 @@ class Solution {
     }
     TreeNode builder(int pre[], int s, int e){
         if(s>e) return null;
-        System.out.println(preIndex);
+        //System.out.println(preIndex);
         TreeNode temp=new TreeNode(pre[preIndex++]);
        
         int index=map.get(temp.val);
