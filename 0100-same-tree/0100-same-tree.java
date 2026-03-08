@@ -20,7 +20,12 @@ class Solution {
     }
 
     boolean dfs(TreeNode p, TreeNode q){
+
+        //if leaf node for both
         if(p==null && q==null) return true;
+
+         // If only one tree is null or 
+         //the values are different, they are not identical
         if(p==null || q==null ||p.val!=q.val) return false;
         return dfs(p.left, q.left) && dfs(p.right, q.right);
     }
