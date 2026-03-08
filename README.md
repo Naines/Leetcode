@@ -180,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/Naines/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0212-word-search-ii](https://github.com/Naines/Leetcode/tree/master/0212-word-search-ii) |
 | [0282-expression-add-operators](https://github.com/Naines/Leetcode/tree/master/0282-expression-add-operators) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Naines/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0392-is-subsequence](https://github.com/Naines/Leetcode/tree/master/0392-is-subsequence) |
 | [0424-longest-repeating-character-replacement](https://github.com/Naines/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Naines/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -205,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0173-binary-search-tree-iterator](https://github.com/Naines/Leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0208-implement-trie-prefix-tree](https://github.com/Naines/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0295-find-median-from-data-stream](https://github.com/Naines/Leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Naines/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0355-design-twitter](https://github.com/Naines/Leetcode/tree/master/0355-design-twitter) |
 | [0460-lfu-cache](https://github.com/Naines/Leetcode/tree/master/0460-lfu-cache) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Naines/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
@@ -552,6 +554,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Naines/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Naines/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Naines/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Naines/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/Naines/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0513-find-bottom-left-tree-value](https://github.com/Naines/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0543-diameter-of-binary-tree](https://github.com/Naines/Leetcode/tree/master/0543-diameter-of-binary-tree) |
@@ -586,6 +589,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Naines/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Naines/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Naines/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Naines/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0513-find-bottom-left-tree-value](https://github.com/Naines/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0543-diameter-of-binary-tree](https://github.com/Naines/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0590-n-ary-tree-postorder-traversal](https://github.com/Naines/Leetcode/tree/master/0590-n-ary-tree-postorder-traversal) |
@@ -616,6 +620,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Naines/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/Naines/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Naines/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Naines/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/Naines/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0513-find-bottom-left-tree-value](https://github.com/Naines/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0543-diameter-of-binary-tree](https://github.com/Naines/Leetcode/tree/master/0543-diameter-of-binary-tree) |
@@ -654,6 +659,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Naines/Leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Naines/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Naines/Leetcode/tree/master/0210-course-schedule-ii) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/Naines/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/Naines/Leetcode/tree/master/0322-coin-change) |
 | [0513-find-bottom-left-tree-value](https://github.com/Naines/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Naines/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
