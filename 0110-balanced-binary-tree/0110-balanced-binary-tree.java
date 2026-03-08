@@ -14,6 +14,7 @@
  * }
  */
 class Solution {
+    Map<TreeNode , Integer> map =new HashMap<>();
     public boolean isBalanced(TreeNode root) {
         return dfs(root); 
     }
@@ -28,6 +29,8 @@ class Solution {
 
     int height(TreeNode root){
         if(root==null) return 0;
-        return Math.max(height(root.left), height(root.right))+1;
+        if(map.get(root)!=null) return map.get(root);
+        map.put(root, Math.max(height(root.left), height(root.right))+1);
+        return map.get(root);
     }
 }
