@@ -210,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/Naines/Leetcode/tree/master/0355-design-twitter) |
 | [0460-lfu-cache](https://github.com/Naines/Leetcode/tree/master/0460-lfu-cache) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Naines/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
+| [1603-design-parking-system](https://github.com/Naines/Leetcode/tree/master/1603-design-parking-system) |
 | [2429-design-a-food-rating-system](https://github.com/Naines/Leetcode/tree/master/2429-design-a-food-rating-system) |
 ## Heap (Priority Queue)
 |  |
@@ -444,6 +445,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1518-water-bottles](https://github.com/Naines/Leetcode/tree/master/1518-water-bottles) |
+| [1603-design-parking-system](https://github.com/Naines/Leetcode/tree/master/1603-design-parking-system) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/Naines/Leetcode/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Naines/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2365-task-scheduler-ii](https://github.com/Naines/Leetcode/tree/master/2365-task-scheduler-ii) |
@@ -757,6 +759,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0992-subarrays-with-k-different-integers](https://github.com/Naines/Leetcode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Naines/Leetcode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1497-check-if-array-pairs-are-divisible-by-k](https://github.com/Naines/Leetcode/tree/master/1497-check-if-array-pairs-are-divisible-by-k) |
+| [1603-design-parking-system](https://github.com/Naines/Leetcode/tree/master/1603-design-parking-system) |
 ## Enumeration
 |  |
 | ------- |
