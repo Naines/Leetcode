@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Naines/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Naines/Leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0704-binary-search](https://github.com/Naines/Leetcode/tree/master/0704-binary-search) |
+| [0705-design-hashset](https://github.com/Naines/Leetcode/tree/master/0705-design-hashset) |
 | [0713-subarray-product-less-than-k](https://github.com/Naines/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0845-longest-mountain-in-array](https://github.com/Naines/Leetcode/tree/master/0845-longest-mountain-in-array) |
 | [0846-hand-of-straights](https://github.com/Naines/Leetcode/tree/master/0846-hand-of-straights) |
@@ -140,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Naines/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0621-task-scheduler](https://github.com/Naines/Leetcode/tree/master/0621-task-scheduler) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Naines/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0705-design-hashset](https://github.com/Naines/Leetcode/tree/master/0705-design-hashset) |
 | [0846-hand-of-straights](https://github.com/Naines/Leetcode/tree/master/0846-hand-of-straights) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Naines/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0904-fruit-into-baskets](https://github.com/Naines/Leetcode/tree/master/0904-fruit-into-baskets) |
@@ -210,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/Naines/Leetcode/tree/master/0355-design-twitter) |
 | [0460-lfu-cache](https://github.com/Naines/Leetcode/tree/master/0460-lfu-cache) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Naines/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0705-design-hashset](https://github.com/Naines/Leetcode/tree/master/0705-design-hashset) |
 | [1603-design-parking-system](https://github.com/Naines/Leetcode/tree/master/1603-design-parking-system) |
 | [2429-design-a-food-rating-system](https://github.com/Naines/Leetcode/tree/master/2429-design-a-food-rating-system) |
 ## Heap (Priority Queue)
@@ -248,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0328-odd-even-linked-list](https://github.com/Naines/Leetcode/tree/master/0328-odd-even-linked-list) |
 | [0355-design-twitter](https://github.com/Naines/Leetcode/tree/master/0355-design-twitter) |
 | [0460-lfu-cache](https://github.com/Naines/Leetcode/tree/master/0460-lfu-cache) |
+| [0705-design-hashset](https://github.com/Naines/Leetcode/tree/master/0705-design-hashset) |
 | [0876-middle-of-the-linked-list](https://github.com/Naines/Leetcode/tree/master/0876-middle-of-the-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/Naines/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Naines/Leetcode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
@@ -781,6 +785,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Function
 |  |
 | ------- |
+| [0705-design-hashset](https://github.com/Naines/Leetcode/tree/master/0705-design-hashset) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Naines/Leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 ## Quickselect
 |  |
