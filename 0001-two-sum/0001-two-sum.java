@@ -16,7 +16,7 @@ class Solution {
             arr[i] = new int[]{nums[i], i};
         }
         Arrays.sort(arr, (a, b)-> (a[0]-b[0]));
-        for(int x[]: arr) System.out.println(Arrays.toString(x));
+        //for(int x[]: arr) System.out.println(Arrays.toString(x));
         int l =0, r=nums.length-1;
 
         while(l<r){
