@@ -1,30 +1,27 @@
 class Solution {
-    public int[][] merge(int[][] arr) {
-        int n = arr.length;
-        Pair pairs[] = new Pair[n];
-        List<Pair> ans = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
-            pairs[i] = new Pair(arr[i][0], arr[i][1]);
-        }
-        Arrays.sort(pairs);
-        for (Pair p : pairs) {
-            if (ans.isEmpty() || ans.get(ans.size() - 1).y < p.x) {
-                ans.add(new Pair(p.x, p.y));
-            } else {
-                ans.get(ans.size() - 1).y = Math.max(ans.get(ans.size() - 1).y, p.y);
+    public int[][] merge(int[][] intervals) {
+        List<int[]> ans = new ArrayList<>();
+        int n = intervals.length;
+        Arrays.sort(intervals, (a, b)-> (a[0]-b[0]));
+        for(int x[]: intervals){
+            //next start > prev end
+            if(ans.size()==0 || x[0]>ans.get(ans.size()-1)[1]){
+                ans.add(new int[]{x[0], x[1]});
+            }else{
+                int t[] = ans.get(ans.size()-1);
+                ans.remove(ans.size()-1);
+                int a = Math.min(t[0],x[0]);
+                int b = Math.max(t[1], x[1]);
+                ans.add(new int[]{a, b});
             }
+            //System.out.println(ans);
         }
-        return ans.stream().map(x -> new int[]{x.x, x.y}).toArray(int[][]::new);
-    }
-    static class Pair implements Comparable<Pair>{
-        int x, y;
-        Pair(int x, int y){
-            this.x = x;
-            this.y = y;
+        int size = ans.size();
+        int mat[][]=new int[size][2];
+        for(int i=0;i<size;i++){
+            mat[i][0] =ans.get(i)[0];
+            mat[i][1]=ans.get(i)[1];
         }
-        @Override
-        public int compareTo(Pair o) {
-            return this.x-o.x;
-        }
+        return mat;
     }
 }
