@@ -19,7 +19,7 @@ class Solution {
         while(lb<=ub){
             int m = lb+(ub-lb)/2;
             int currday = isFeasible(weights, m);
-            System.out.println(currday+" "+m);
+            //System.out.println(currday+" "+m);
             if(currday<=days){
                 ans = m;
                 ub = m-1;
