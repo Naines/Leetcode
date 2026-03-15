@@ -1,22 +1,22 @@
 class Solution {
-    public int search(int[] a, int target) {
-        int lb=0, ub=a.length-1;
+    public int search(int[] nums, int target) {
+        int lb = 0, ub = nums.length-1;
         while(lb<=ub){
-            int m = (lb+ub)>>1;
-            if(a[m]==target) return m;
+            int m = (lb+ub)/2;
+            if(nums[m]==target){
+                return m;
+            }
+            if(nums[lb]<=nums[m]){
 
-            //left side is sorted?
-            if(a[lb]<=a[m]){
-
-                //target lies here?
-                if(target>=a[lb] && target<=a[m])
-                    ub=m-1;
-                else
+                if(nums[lb]<=target && target<=nums[m]){
+                    ub = m-1;
+                }else{
                     lb=m+1;
+                }
+
             }else{
                 
-                //target lies ?
-                if(target>=a[m] && target<=a[ub]){
+                if(target>=nums[m] && target<=nums[ub]){
                     lb=m+1;
                 }else{
                     ub=m-1;
