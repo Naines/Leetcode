@@ -2,47 +2,75 @@ class Solution {
 
     //Approach 1: brute force
     //Approach 2: hashmap O(n^2*logn), space: O(n)
-    //Appraoch 3L sorting + 2 pointers
+    //Appraoch 3L sorting + 2 pointers, O(n^2 + nlogn )
     public List<List<Integer>> threeSum(int[] nums) {
     //   return findTripletsHashMap(nums);
-         return approach3(nums);
+         return solve(nums);
     }
 
-    //const = i
-    //left = i+1, right = n-1
-
-    static List<List<Integer>> approach3(int nums[]){
+    static List<List<Integer>> solve(int nums[]){
         List<List<Integer>> res = new ArrayList<>();
         Arrays.sort(nums);
         int n = nums.length;
-
-        //i: 0-> n-2
-        //j/left: i+1 -> n-1
-        //k/right: n-1 -> left
         for(int i=0;i<n-2;i++){
             if(i>0 && nums[i]==nums[i-1]) continue;
-            int left = i+1, right =n-1;
-            int trgt = -nums[i];
-
-            while(left<right){
-                int sum = nums[left] + nums[right];
-                if(sum==trgt){
-                    res.add(Arrays.asList(nums[i], nums[left], nums[right]));
-                    right--;
-                    left++;
-                    while (left < right && nums[left] == nums[left - 1])
-                        left++;
-                    while (left < right && nums[right] == nums[right + 1])
-                        right--;
-                }else if(sum<trgt){
-                    left++;
+            int j = i+1, k=n-1;
+            int reqd = -nums[i];
+            while(j<k){
+                int sum = nums[j]+nums[k];
+                if(sum==reqd){
+                    res.add(Arrays.asList(nums[i], nums[j], nums[k]));
+                    j++;
+                    k--;
+                    while (j < k && nums[j] == nums[j - 1])
+                        j++;
+                    while (j < k && nums[j] == nums[k + 1])
+                        k--;
+                }else if(sum<reqd){
+                    j++;
                 }else{
-                    right--;
+                    k--;
                 }
             }
         }
         return res;
     }
+
+    //const = i
+    //left = i+1, right = n-1
+
+    // static List<List<Integer>> approach3(int nums[]){
+    //     List<List<Integer>> res = new ArrayList<>();
+    //     Arrays.sort(nums);
+    //     int n = nums.length;
+
+    //     //i: 0-> n-2
+    //     //j/left: i+1 -> n-1
+    //     //k/right: n-1 -> left
+    //     for(int i=0;i<n-2;i++){
+    //         if(i>0 && nums[i]==nums[i-1]) continue;
+    //         int left = i+1, right =n-1;
+    //         int trgt = -nums[i];
+
+    //         while(left<right){
+    //             int sum = nums[left] + nums[right];
+    //             if(sum==trgt){
+    //                 res.add(Arrays.asList(nums[i], nums[left], nums[right]));
+    //                 right--;
+    //                 left++;
+    //                 while (left < right && nums[left] == nums[left - 1])
+    //                     left++;
+    //                 while (left < right && nums[right] == nums[right + 1])
+    //                     right--;
+    //             }else if(sum<trgt){
+    //                 left++;
+    //             }else{
+    //                 right--;
+    //             }
+    //         }
+    //     }
+    //     return res;
+    // }
 
 
     //Approach 2
