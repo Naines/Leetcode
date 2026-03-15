@@ -1,13 +1,18 @@
 class Solution {
+
+    //if buyAt < currPrice
+    //buy
     public int maxProfit(int[] prices) {
-        int ans=0;
-        int max=0;
+        int buyAt = prices[0], profit = 0;
         for(int i=1;i<prices.length;i++){
 
-            //max: max profit till date if i sell today
-            max=Math.max(max+prices[i]-prices[i-1], max);
-            ans=Math.max(ans, max);
+            if(buyAt>prices[i]){
+                buyAt = prices[i];
+            }else{
+                profit+=prices[i]-buyAt;
+                buyAt = prices[i];
+            }
         }
-        return ans;
+        return profit;
     }
 }
