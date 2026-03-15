@@ -13,8 +13,9 @@ class Solution {
     }
 
     public int shipWithinDays(int[] weights, int days) {
-        int max = Arrays.stream(weights).max().orElseThrow();
-        int lb=max, ub=(int)1e9,ans=-1;
+        int max = Arrays.stream(weights).max().getAsInt();
+        int ub = Arrays.stream(weights).sum();
+        int lb=max,ans=-1;
         while(lb<=ub){
             int m = lb+(ub-lb)/2;
             int currday = isFeasible(weights, m);
