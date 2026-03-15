@@ -1,29 +1,14 @@
 class Solution {
-    public int maxProfit(int[] prices) {
-        
-        int minPrice = Integer.MAX_VALUE;
-        int maxProfit = 0;
+    public int maxProfit(int[] prices) {  
+        if(prices.length==1) return 0;   
+        int buyAt = prices[0]; 
+        int profit = 0;
         for (int price : prices) {
-            if (price < minPrice) {
-                minPrice = price;
-            }
-            else {
-                maxProfit = Math.max(maxProfit, price - minPrice);
-            }
+            if(buyAt > price)
+                buyAt = price;
+            profit = Math.max(profit, price - buyAt);
+            //System.out.println(buyAt+" "+price+" "+profit);
         }
-        return maxProfit;
-
-        // kadane on gradient to find the maxGradient overall 
-        // for(int i=0;i<prices.length-1;i++){
-        //     prices[i] = prices[i+1]-prices[i];
-        // }
-        // prices[prices.length-1] = 0;
-        // for(int x: prices) System.out.println(x);
-        // int sum =prices[0], max=prices[0];
-        // for(int i=1;i<prices.length;i++){
-        //     sum = Math.max(prices[i] , sum + prices[i]);
-        //     max= Math.max(max, sum);
-        // }
-        // return max<0?0:max;
+        return profit;
     }
 }
