@@ -2,8 +2,7 @@ class Solution {
     public int[][] insert(int[][] arr, int[] b) {
         List<int[]> result = new ArrayList<>();
         int i=0;
-
-
+        
         // add all the intervals ending before newInterval starts
         while(i<arr.length && arr[i][1]< b[0]){
             result.add(arr[i]);
