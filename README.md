@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1539-kth-missing-positive-number](https://github.com/Naines/Leetcode/tree/master/1539-kth-missing-positive-number) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/Naines/Leetcode/tree/master/1707-maximum-xor-with-an-element-from-array) |
 | [1710-maximum-units-on-a-truck](https://github.com/Naines/Leetcode/tree/master/1710-maximum-units-on-a-truck) |
+| [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Naines/Leetcode/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Naines/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/Naines/Leetcode/tree/master/2302-count-subarrays-with-score-less-than-k) |
 | [2365-task-scheduler-ii](https://github.com/Naines/Leetcode/tree/master/2365-task-scheduler-ii) |
@@ -565,6 +566,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/Naines/Leetcode/tree/master/0212-word-search-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Naines/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0994-rotting-oranges](https://github.com/Naines/Leetcode/tree/master/0994-rotting-oranges) |
+| [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Naines/Leetcode/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Naines/Leetcode/tree/master/3643-flip-square-submatrix-vertically) |
 ## Tree
 |  |
