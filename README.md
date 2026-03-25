@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1710-maximum-units-on-a-truck](https://github.com/Naines/Leetcode/tree/master/1710-maximum-units-on-a-truck) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Naines/Leetcode/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Naines/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
+| [2261-k-divisible-elements-subarrays](https://github.com/Naines/Leetcode/tree/master/2261-k-divisible-elements-subarrays) |
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/Naines/Leetcode/tree/master/2302-count-subarrays-with-score-less-than-k) |
 | [2365-task-scheduler-ii](https://github.com/Naines/Leetcode/tree/master/2365-task-scheduler-ii) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Naines/Leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
@@ -174,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Naines/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Naines/Leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1497-check-if-array-pairs-are-divisible-by-k](https://github.com/Naines/Leetcode/tree/master/1497-check-if-array-pairs-are-divisible-by-k) |
+| [2261-k-divisible-elements-subarrays](https://github.com/Naines/Leetcode/tree/master/2261-k-divisible-elements-subarrays) |
 | [2365-task-scheduler-ii](https://github.com/Naines/Leetcode/tree/master/2365-task-scheduler-ii) |
 | [2429-design-a-food-rating-system](https://github.com/Naines/Leetcode/tree/master/2429-design-a-food-rating-system) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Naines/Leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -804,6 +806,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0212-word-search-ii](https://github.com/Naines/Leetcode/tree/master/0212-word-search-ii) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/Naines/Leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/Naines/Leetcode/tree/master/1707-maximum-xor-with-an-element-from-array) |
+| [2261-k-divisible-elements-subarrays](https://github.com/Naines/Leetcode/tree/master/2261-k-divisible-elements-subarrays) |
 ## Memoization
 |  |
 | ------- |
@@ -826,6 +829,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/Naines/Leetcode/tree/master/0204-count-primes) |
 | [0845-longest-mountain-in-array](https://github.com/Naines/Leetcode/tree/master/0845-longest-mountain-in-array) |
+| [2261-k-divisible-elements-subarrays](https://github.com/Naines/Leetcode/tree/master/2261-k-divisible-elements-subarrays) |
 | [3546-equal-sum-grid-partition-i](https://github.com/Naines/Leetcode/tree/master/3546-equal-sum-grid-partition-i) |
 ## Number Theory
 |  |
@@ -840,11 +844,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Naines/Leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+| [2261-k-divisible-elements-subarrays](https://github.com/Naines/Leetcode/tree/master/2261-k-divisible-elements-subarrays) |
 ## Hash Function
 |  |
 | ------- |
 | [0705-design-hashset](https://github.com/Naines/Leetcode/tree/master/0705-design-hashset) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Naines/Leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+| [2261-k-divisible-elements-subarrays](https://github.com/Naines/Leetcode/tree/master/2261-k-divisible-elements-subarrays) |
 ## Quickselect
 |  |
 | ------- |
