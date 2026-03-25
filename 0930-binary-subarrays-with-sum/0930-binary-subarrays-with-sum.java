@@ -1,33 +1,34 @@
 class Solution {
-    public int numSubarraysWithSum(int[] nums, int goal) {
-        // int l=0, count =0, n=nums.length;
-        // int currSum = 0;
-        
-        // Map<Integer, Integer> map=new HashMap<>();
-        // map.put(0, 1);
-        // currSum=0;
-        // for(int r=0;r<n;r++){
-        //     currSum+=nums[r];
-        //     count+=map.getOrDefault(currSum-goal,0);
-        //     map.put(currSum, map.getOrDefault(currSum, 0)+1);
-        // }
-        // return count;
+    //rrrrr
+    //l
+    //00000 1+2+3+4+5
 
-        return atmost(nums,goal)-atmost(nums,goal-1);
+    //goal=2
+    //rrrrr
+    //..l
+    //10101
+    //.....
+    //window=should have sum goal
+
+    //ans = 1+1
+    public int numSubarraysWithSum(int[] nums, int goal) {
+        System.out.println(countlessThanGoal(nums, goal));
+        System.out.println(countlessThanGoal(nums, goal-1));
+
+      return countlessThanGoal(nums, goal)-countlessThanGoal(nums, goal-1);
     }
 
-    int atmost(int nums[], int goal){
+    int countlessThanGoal(int nums[], int goal){
         if(goal<0) return 0;
-        int l=0,count=0,n=nums.length;
-        int currSum=0;
-        for(int r=0;r<n;r++){
-            currSum+=nums[r];
-            while(currSum>goal){
-                currSum-=nums[l];
+        int l=0, ans = 0, sum=0;
+        for(int r=0;r<nums.length;r++){
+            sum+=nums[r];
+            while(sum>goal){
+                sum-=nums[l];
                 l++;
             }
-            count+=(r-l+1);
+            ans+=r-l+1; //(all subarray ending at r)
         }
-        return count;
+        return ans;
     }
 }
