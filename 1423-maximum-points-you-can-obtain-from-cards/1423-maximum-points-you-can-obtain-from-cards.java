@@ -1,20 +1,23 @@
 class Solution {
-    public int maxScore(int[] arr, int k) {
-        int l=0,n=arr.length;
-        int S = 0;
-        for(int x: arr) S+=x;
-
-        int currSum=0, ans=0; k =n-k;
-        for(int r=0;r<n;r++){
-            currSum+=arr[r];
-            System.out.println(r+" "+l+" "+currSum);
-            if(r-l+1>k){
-                currSum-=arr[l];
-                l++;
-            }
-            System.out.println(currSum);
-            if(r-l+1==k)ans = Math.max(ans, S-currSum);
+    // size n - k over the array.
+    // The answer is max(answer, total_pts - sumOfCurrentWindow)
+    public int maxScore(int[] nums, int k) {
+      int n=nums.length, l=0, ans=0;
+      k = n-k;
+      int totalSum= Arrays.stream(nums).sum(), sum=0;
+      int x=0;
+      for(int r=0;r<n;r++){
+        if(r<k-1) {
+            sum+=nums[r];
+            continue;
         }
-        return ans;
+        sum+=nums[r];
+        if(r-l+1>k){
+            sum-=nums[l++];
+        }
+        ans=Math.max(ans, totalSum - sum);
+        System.out.println(l+" "+r+" "+ans+" "+sum);
+      }  
+      return ans;
     }
 }
