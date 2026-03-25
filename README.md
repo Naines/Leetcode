@@ -124,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2906-construct-product-matrix](https://github.com/Naines/Leetcode/tree/master/2906-construct-product-matrix) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Naines/Leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Naines/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3546-equal-sum-grid-partition-i](https://github.com/Naines/Leetcode/tree/master/3546-equal-sum-grid-partition-i) |
 | [3637-trionic-array-i](https://github.com/Naines/Leetcode/tree/master/3637-trionic-array-i) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Naines/Leetcode/tree/master/3643-flip-square-submatrix-vertically) |
 ## Hash Table
@@ -503,6 +504,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/Naines/Leetcode/tree/master/2302-count-subarrays-with-score-less-than-k) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Naines/Leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [2906-construct-product-matrix](https://github.com/Naines/Leetcode/tree/master/2906-construct-product-matrix) |
+| [3546-equal-sum-grid-partition-i](https://github.com/Naines/Leetcode/tree/master/3546-equal-sum-grid-partition-i) |
 ## Sliding Window
 |  |
 | ------- |
@@ -586,6 +588,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Naines/Leetcode/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Naines/Leetcode/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2906-construct-product-matrix](https://github.com/Naines/Leetcode/tree/master/2906-construct-product-matrix) |
+| [3546-equal-sum-grid-partition-i](https://github.com/Naines/Leetcode/tree/master/3546-equal-sum-grid-partition-i) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Naines/Leetcode/tree/master/3643-flip-square-submatrix-vertically) |
 ## Tree
 |  |
@@ -823,6 +826,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/Naines/Leetcode/tree/master/0204-count-primes) |
 | [0845-longest-mountain-in-array](https://github.com/Naines/Leetcode/tree/master/0845-longest-mountain-in-array) |
+| [3546-equal-sum-grid-partition-i](https://github.com/Naines/Leetcode/tree/master/3546-equal-sum-grid-partition-i) |
 ## Number Theory
 |  |
 | ------- |
