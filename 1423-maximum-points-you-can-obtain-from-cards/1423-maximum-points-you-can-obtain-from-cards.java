@@ -16,7 +16,7 @@ class Solution {
             sum-=nums[l++];
         }
         ans=Math.max(ans, totalSum - sum);
-        System.out.println(l+" "+r+" "+ans+" "+sum);
+        //System.out.println(l+" "+r+" "+ans+" "+sum);
       }  
       return ans;
     }
