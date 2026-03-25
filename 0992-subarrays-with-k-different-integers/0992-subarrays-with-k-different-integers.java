@@ -1,21 +1,29 @@
 class Solution {
+
+    //12123
+    //11221
+    //
+    //map.size()!=k
     public int subarraysWithKDistinct(int[] nums, int k) {
-        return atmost(nums, k)-atmost(nums, k-1);
+        return solve(nums, k)-solve(nums, k-1);
     }
 
-    int atmost(int nums[], int k){
-        int l=0, n=nums.length, ans=0;
-        Map<Integer, Integer> map=new HashMap<>();
-        for(int r=0;r<n;r++){
-            map.put(nums[r], map.getOrDefault(nums[r], 0)+1);
-            while(map.size()>k){
-                //resize
-                map.put(nums[l], map.get(nums[l])-1);
-                if(map.get(nums[l])==0) map.remove(nums[l]);
+    int solve(int nums[], int k){
+        if(k<0) return 0;
+       int map[]=new int[20001];
+       int l=0, ans=0, count =0;
+       for(int r=0;r<nums.length;r++){
+            map[nums[r]]++;
+            if(map[nums[r]]==1) count++;
+
+            while(count>k){
+                map[nums[l]]--;
+                if(map[nums[l]]==0) count--;
                 l++;
             }
-            ans+=r-l+1;
-        }
-        return ans;
+           
+            ans+=(r-l+1);
+       }
+       return ans;
     }
 }
