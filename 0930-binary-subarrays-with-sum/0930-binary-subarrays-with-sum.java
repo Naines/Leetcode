@@ -1,19 +1,33 @@
 class Solution {
-
     public int numSubarraysWithSum(int[] nums, int goal) {
-        int pre=0, ans =0;
-        HashMap<Integer, Integer> map=new HashMap<>();
-        map.put(0, 1);
-
+        int ans = 0,l=0,z=0,pre=0;
         for(int r=0;r<nums.length;r++){
             pre+=nums[r];
-            ans+=map.getOrDefault(pre-goal,0);
-            map.put(pre, map.getOrDefault(pre, 0)+1);
-            
+            while(l<r && (nums[l]==0 || pre>goal)){
+                if(nums[l]==1) z=0;
+                else z++;
+                pre-=nums[l];
+                l++;
+            }
+            if(pre==goal) ans+=z+1;
         }
-        
         return ans;
     }
+
+    //
+    // public int numSubarraysWithSum(int[] nums, int goal) {
+    //     int pre=0, ans =0;
+    //     HashMap<Integer, Integer> map=new HashMap<>();
+    //     map.put(0, 1);
+
+    //     for(int r=0;r<nums.length;r++){
+    //         pre+=nums[r];
+    //         ans+=map.getOrDefault(pre-goal,0);
+    //         map.put(pre, map.getOrDefault(pre, 0)+1);    
+    //     }
+        
+    //     return ans;
+    // }
 
 
     //M1: sliding window <=goal
