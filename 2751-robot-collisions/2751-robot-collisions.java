@@ -43,7 +43,7 @@ class Solution {
             robots[i]=new Robot(positions[i], healths[i],i,directions.charAt(i));
         }
         Arrays.sort(robots);
-        for(Robot r: robots)System.out.println(r);
+        // for(Robot r: robots)System.out.println(r);
         Deque<Robot> stack = new ArrayDeque<>();
         for (Robot r : robots) {
             if (r.dir == 'R' ) {
