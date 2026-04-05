@@ -1,21 +1,19 @@
 class Solution {
-    public int trap(int[] arr) {
-          Stack<Integer> stk = new Stack<>();
-        int count = 0;
-        for (int i = 0; i < arr.length; i++) {
-            while (!stk.isEmpty() && arr[stk.peek()] < arr[i]) {
-                int t = stk.pop();
-                if (!stk.isEmpty()) {
-                    int h = Math.min(arr[i], arr[stk.peek()]) - arr[t];
-                    int w = i - stk.peek() - 1;
-                    count += h * w;
-                    // System.out.println(i+" "+arr[t]+" "+t+ " " + count);
-                    // System.out.println("height = "+h+" weight="+w);
-                    // System.out.println("count = "+(w*h));
+    public int trap(int[] height) {
+        Stack<Integer> stk=new Stack<>();
+        int n=height.length, count=0;
+        // int nge[]=new int[n];
+        for(int i=0;i<n;i++){
+            while(!stk.isEmpty() && height[stk.peek()]<height[i]){
+                int t=stk.pop();
+                if(!stk.isEmpty()){
+                    int h = Math.min(height[stk.peek()], height[i]) - height[t];
+                    int w = i-stk.peek()-1;
+                    // System.out.println(h+" "+w);
+                    count+=(h*w);
                 }
             }
             stk.push(i);
-            // System.out.println(arr[i]+" pushed");
         }
         return count;
     }
