@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/Naines/Leetcode/tree/master/1707-maximum-xor-with-an-element-from-array) |
 | [1710-maximum-units-on-a-truck](https://github.com/Naines/Leetcode/tree/master/1710-maximum-units-on-a-truck) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Naines/Leetcode/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
+| [2104-sum-of-subarray-ranges](https://github.com/Naines/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Naines/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2261-k-divisible-elements-subarrays](https://github.com/Naines/Leetcode/tree/master/2261-k-divisible-elements-subarrays) |
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/Naines/Leetcode/tree/master/2302-count-subarrays-with-score-less-than-k) |
@@ -578,6 +579,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-sum-of-subarray-minimums](https://github.com/Naines/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Naines/Leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/Naines/Leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
+| [2104-sum-of-subarray-ranges](https://github.com/Naines/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
 | [2751-robot-collisions](https://github.com/Naines/Leetcode/tree/master/2751-robot-collisions) |
 ## Monotonic Stack
 |  |
@@ -588,6 +590,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Naines/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Naines/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0907-sum-of-subarray-minimums](https://github.com/Naines/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
+| [2104-sum-of-subarray-ranges](https://github.com/Naines/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
 ## Doubly-Linked List
 |  |
 | ------- |
