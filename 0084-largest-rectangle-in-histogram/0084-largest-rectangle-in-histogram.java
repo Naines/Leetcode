@@ -1,51 +1,32 @@
 class Solution {
 
-     public int largestRectangleArea(int[] arr) {
-       int n = arr.length;
-        int nse[] = new int[n];
-        int pse[] = new int[n];
+    //max Stack
+    //2,4,1
+    //stk: 2,
+    //left=1, right:stk.peek() = 2
+    //right-left-1
+    //pse:
+    public int largestRectangleArea(int[] heights) {
+        Stack<Integer> stk=new Stack<>();
+        int n=heights.length;
+        int ans=0, area=0;
+        int nse[]=new int[n];
+        int pse[]=new int[n];
         Arrays.fill(nse, n);
         Arrays.fill(pse, -1);
-        int max = 0;
-        Stack<Integer> stk = new Stack<>();
-        for (int i = 0; i < arr.length; i++) {
-            while (!stk.isEmpty() && arr[stk.peek()] > arr[i]) {
+        for(int i=0;i<n;i++){
+            while(!stk.isEmpty() && heights[stk.peek()]>heights[i]){
                 int t = stk.pop();
-                nse[t] = i;
+                nse[t]= i;
             }
-            if (!stk.isEmpty())
-                pse[i] = stk.peek();
+            if(!stk.isEmpty()) pse[i]=stk.peek();
             stk.push(i);
         }
-
-        for (int i = 0; i < arr.length; i++) {
-            int h = arr[i];
-            int w = nse[i] - pse[i] - 1;
-            max = Math.max(max, h * w);
+        for(int i=0;i<n;i++){
+            int w = nse[i]-pse[i]-1;
+            ans=Math.max(ans, heights[i]*w);
         }
+        return ans;
 
-        return max;
     }
-    // public int largestRectangleArea(int[] arr) {
-    //     int n=arr.length;
-    //     int maxArea=0, area=0;
-    //     int i=0;
-    //     Stack<Integer> stk=new Stack<>();
-    //     while(i<n){
-    //         if(stk.isEmpty() || arr[i]>= arr[stk.peek()])
-    //         stk.push(i++);
-    //         else{
-    //             int top=stk.pop();
-    //             area=stk.isEmpty()? arr[top]*i: arr[top]*(i-stk.peek()-1);
-    //             maxArea=Math.max(area, maxArea);
-    //         }
-    //     }
-    //     while(!stk.isEmpty())
-    //     {
-    //         int top=stk.pop();
-    //             area=stk.isEmpty()? arr[top]*i: arr[top]*(i-stk.peek()-1);
-    //             maxArea=Math.max(area, maxArea);
-    //     }
-    //     return maxArea;
-    // }
 }
