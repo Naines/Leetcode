@@ -246,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0460-lfu-cache](https://github.com/Naines/Leetcode/tree/master/0460-lfu-cache) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Naines/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0705-design-hashset](https://github.com/Naines/Leetcode/tree/master/0705-design-hashset) |
+| [0901-online-stock-span](https://github.com/Naines/Leetcode/tree/master/0901-online-stock-span) |
 | [1603-design-parking-system](https://github.com/Naines/Leetcode/tree/master/1603-design-parking-system) |
 | [2429-design-a-food-rating-system](https://github.com/Naines/Leetcode/tree/master/2429-design-a-food-rating-system) |
 ## Heap (Priority Queue)
@@ -576,6 +577,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/Naines/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0590-n-ary-tree-postorder-traversal](https://github.com/Naines/Leetcode/tree/master/0590-n-ary-tree-postorder-traversal) |
 | [0735-asteroid-collision](https://github.com/Naines/Leetcode/tree/master/0735-asteroid-collision) |
+| [0901-online-stock-span](https://github.com/Naines/Leetcode/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Naines/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Naines/Leetcode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/Naines/Leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
@@ -589,6 +591,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/Naines/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0496-next-greater-element-i](https://github.com/Naines/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Naines/Leetcode/tree/master/0503-next-greater-element-ii) |
+| [0901-online-stock-span](https://github.com/Naines/Leetcode/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Naines/Leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [2104-sum-of-subarray-ranges](https://github.com/Naines/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
 ## Doubly-Linked List
@@ -764,6 +767,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Naines/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Naines/Leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
+| [0901-online-stock-span](https://github.com/Naines/Leetcode/tree/master/0901-online-stock-span) |
 ## Greedy
 |  |
 | ------- |
