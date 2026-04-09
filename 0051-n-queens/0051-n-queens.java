@@ -1,39 +1,43 @@
 class Solution {
     List<List<String>> ans = new ArrayList<>();
+    boolean grid[][];
+    boolean col[], diag1[], diag2[];
     public List<List<String>> solveNQueens(int n) {
-        boolean grid[][]=new boolean[n][n];
-        solve(grid, 0, n);
+        this.grid=new boolean[n][n];
+        this.col = new boolean[n];
+        this.diag1=new boolean[2*n-1];
+        this.diag2=new boolean[2*n-1];
+        solve(0, n);
         return ans;
     }
 
-    void solve(boolean grid[][], int cr, int n){
+    void solve(int cr, int n){
         if(cr==n){
             addToAnswer(grid,n);
             return;
         }
 
         for(int i=0;i<n;i++){
-            if(!canPlace(grid, cr, i, grid.length, grid[0].length)) continue;
-            grid[cr][i]=true;
-            solve(grid, cr+1, n);
+            if(!canPlace(col, diag1, diag2, cr, i, n, n)) continue;
+            col[i]=true;
+            diag1[cr-i+n-1]=true;
+            diag2[cr+i]=true;
+            grid[cr][i]= true;
+            solve(cr+1, n);
+            col[i]=false;
+            diag1[cr-i+n-1]=false;
+            diag2[cr+i]=false;
             grid[cr][i]=false;
         }
     }
-    boolean canPlace(boolean grid[][], int x, int y, int h, int w){
-        //up, right Diag, left diag
-        for(int i=x-1;i>=0;i--){
-            if(grid[i][y]) return false;
-        }
-        int i=x-1, j=y-1;
-        while(i>=0 && j>=0){
-            if(grid[i--][j--]) return false;
-        }
-        i=x-1; j=y+1;
-        while(i>=0 && j<w){
-            if(grid[i--][j++]) return false;
-        }
+    boolean canPlace(boolean col[], boolean diag1[], boolean diag2[],
+     int x, int y, int h, int w){
+        if(col[y]) return false;
+        if(diag1[x-y+h-1]) return false;
+        if(diag2[x+y]) return false;
         return true;
     }
+
     void addToAnswer(boolean grid[][],int n){
         List<String> temp=new ArrayList<>();
         for(int i=0;i<n;i++){
