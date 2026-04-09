@@ -1,63 +1,51 @@
 class Solution {
-    ArrayList<List<String>> ans=new ArrayList<>();//store ans
+    List<List<String>> ans = new ArrayList<>();
     public List<List<String>> solveNQueens(int n) {
-       
         boolean grid[][]=new boolean[n][n];
-        solve(grid, n, 0);
+        solve(grid, 0, n);
         return ans;
     }
-     void solve(boolean grid[][], int n, int cr)
-    {
-        if(cr==n)
-        {
-            add(grid,n);
+
+    void solve(boolean grid[][], int cr, int n){
+        if(cr==n){
+            addToAnswer(grid,n);
             return;
         }
-        
-        for(int i=0;i<n;i++)
-        {
-            if(isSafe(grid, n, cr, i))
-            {
-                //place queen
-                grid[cr][i]=true;
-                
-                //place more queen in next row onwards
-                solve(grid, n, cr+1);
-                    
-                //remove queen ..finding next possibility
-                grid[cr][i]=false;
-                
-            }
+
+        for(int i=0;i<n;i++){
+            if(!canPlace(grid, cr, i, grid.length, grid[0].length)) continue;
+            grid[cr][i]=true;
+            solve(grid, cr+1, n);
+            grid[cr][i]=false;
         }
     }
-    void add(boolean grid[][], int n)
-    {
-        ArrayList<String> temp=new ArrayList<>();
-        for(int i=0;i<n;i++)
-        {
-            String s="";
-            for(int j=0;j<n;j++)
-            {
-                if(grid[i][j])  s+='Q';
-                    else s+='.';
+    boolean canPlace(boolean grid[][], int x, int y, int h, int w){
+        //up, right Diag, left diag
+        for(int i=x-1;i>=0;i--){
+            if(grid[i][y]) return false;
+        }
+        int i=x-1, j=y-1;
+        while(i>=0 && j>=0){
+            if(grid[i--][j--]) return false;
+        }
+        i=x-1; j=y+1;
+        while(i>=0 && j<w){
+            if(grid[i--][j++]) return false;
+        }
+        return true;
+    }
+    void addToAnswer(boolean grid[][],int n){
+        List<String> temp=new ArrayList<>();
+        for(int i=0;i<n;i++){
+            StringBuilder sb= new StringBuilder();
+            for(int j=0;j<n;j++){
+                if(grid[i][j])
+                  sb.append('Q');
+                else
+                  sb.append('.'); 
             }
-            temp.add(s);
+            temp.add(sb.toString());
         }
         ans.add(temp);
-    }
-    boolean isSafe(boolean grid[][], int n, int r, int c)
-    {
-        //upward attack
-        for(int i=r-1;i>=0;i--)
-            if(grid[i][c])     return false;
-        
-        //upward left diag
-        for(int i=r-1, j=c-1;j>=0 && i>=0 ;i--,j--)
-            if(grid[i][j])  return false;
-        //upward right diag
-        for(int i=r-1, j=c+1;j<n && i>=0 ;i--,j++)
-            if(grid[i][j])  return false;
-        //no side ways ckeck req
-        return true;
     }
 }
