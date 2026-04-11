@@ -1,47 +1,41 @@
 class Solution {
-    public boolean canFinish(int numCourses, int[][] prerequisites) {
-        Node nodes[]=new Node[numCourses];
-        for(int i=0;i<numCourses;i++){
-            nodes[i] = new Node(i);
-        }
-        int degree[]=new int[numCourses];
-        for(int i=0;i<prerequisites.length;i++){
-            nodes[prerequisites[i][1]].list.add(nodes[prerequisites[i][0]]);
-            degree[prerequisites[i][0]]++;
-        }
-        int count = count(degree, nodes);
-        System.out.println(nodes+" "+count);
-        return count==numCourses;
-    }
 
-    int count(int degree[], Node nodes[]){
-        Queue<Node> q=new ArrayDeque<>();
-        int count =0;
-        for(int i=0;i<degree.length;i++){
-            if(degree[i]==0){
-                q.add(nodes[i]);
-                count++;
-            }
+    //[a,b]
+    //b->a
+    boolean vis[], in[];
+    public boolean canFinish(int n, int[][] arr) {
+        this.vis=new boolean[n];
+        this.in=new boolean[n];
+        List<List<Integer>> adj = new ArrayList<>();
+        for(int i=0;i<n;i++) adj.add(new ArrayList<>());
+
+        for(int i=0;i<arr.length;i++){
+            adj.get(arr[i][1]).add(arr[i][0]);
         }
         
-        while(!q.isEmpty()){
-            Node x = q.poll();
-            for(Node v: x.list){
-                degree[v.val]--;
-                if(degree[v.val]==0){
-                    q.add(v);
-                    count++;
-                }
+        for(int i=0;i<n;i++){
+            if(vis[i]) continue;
+            if(dfs(adj, n, i)) return false;
+        }
+        return true;
+    }
+
+    boolean dfs(List<List<Integer>> adj, int n, int u){
+        vis[u]=true;
+        in[u]=true;
+        // System.out.println("in at"+u);
+        // System.out.println(Arrays.toString(vis));
+        // System.out.println(Arrays.toString(in));
+        for(int v: adj.get(u)){
+            if(!vis[v]){
+                if(dfs(adj, n, v)) 
+                    return true;
+            }else if(in[v]){
+                return true;
             }
         }
-        return count;
+        in[u]=false;
+        return false;
     }
-    static class Node{
-        int val;
-        List<Node> list;
-        Node(int val){
-            this.val  =val;
-            this.list = new ArrayList<>();
-        }
-    }
+
 }
