@@ -690,6 +690,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Naines/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Naines/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0743-network-delay-time](https://github.com/Naines/Leetcode/tree/master/0743-network-delay-time) |
+| [0802-find-eventual-safe-states](https://github.com/Naines/Leetcode/tree/master/0802-find-eventual-safe-states) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Naines/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/Naines/Leetcode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 ## Binary Tree
@@ -760,6 +761,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Naines/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Naines/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0743-network-delay-time](https://github.com/Naines/Leetcode/tree/master/0743-network-delay-time) |
+| [0802-find-eventual-safe-states](https://github.com/Naines/Leetcode/tree/master/0802-find-eventual-safe-states) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Naines/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0994-rotting-oranges](https://github.com/Naines/Leetcode/tree/master/0994-rotting-oranges) |
 ## Union Find
@@ -821,11 +823,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/Naines/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Naines/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0743-network-delay-time](https://github.com/Naines/Leetcode/tree/master/0743-network-delay-time) |
+| [0802-find-eventual-safe-states](https://github.com/Naines/Leetcode/tree/master/0802-find-eventual-safe-states) |
 ## Topological Sort
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Naines/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Naines/Leetcode/tree/master/0210-course-schedule-ii) |
+| [0802-find-eventual-safe-states](https://github.com/Naines/Leetcode/tree/master/0802-find-eventual-safe-states) |
 ## Union-Find
 |  |
 | ------- |
