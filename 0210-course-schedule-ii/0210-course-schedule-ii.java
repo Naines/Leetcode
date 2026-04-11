@@ -1,48 +1,37 @@
 class Solution {
-    public int[] findOrder(int numCourses, int[][] prerequisites) {
-        Node nodes[]=new Node[numCourses];
-        for(int i=0;i<numCourses;i++){
-            nodes[i] = new Node(i);
-        }
-        int degree[]=new int[numCourses];
-        for(int i=0;i<prerequisites.length;i++){
-            nodes[prerequisites[i][1]].list.add(nodes[prerequisites[i][0]]);
-            degree[prerequisites[i][0]]++;
-        }
-        int ans[] = order(degree, nodes);
-        return ans;
-    }
 
-    int[] order(int degree[], Node nodes[]){
-        Queue<Node> q=new ArrayDeque<>();
+    //get in degree and do Toposort
+    public int[] findOrder(int n, int[][] arr) {
+        List<List<Integer>> adj  =new ArrayList<>();
+        Queue<Integer> q= new LinkedList<>();
         List<Integer> ans = new ArrayList<>();
-        int count =0;
-        for(int i=0;i<degree.length;i++){
-            if(degree[i]==0){
-                q.add(nodes[i]);
-                count++;
+        int in[] = new int[n];
+        // vis = new boolean[n];
+        for(int i=0;i<n;i++)
+            adj.add(new ArrayList<>());
+
+        //1,0
+        //0->1
+        for(int i=0;i<arr.length;i++){
+            adj.get(arr[i][1]).add(arr[i][0]);
+        }
+        for(int u=0;u<n;u++){
+            for(int v: adj.get(u)){
+                in[v]++;
             }
         }
-        
+        for(int i=0;i<n;i++) if(in[i]==0) q.add(i);
         while(!q.isEmpty()){
-            Node x = q.poll();
-            ans.add(x.val);
-            for(Node v: x.list){
-                degree[v.val]--;
-                if(degree[v.val]==0){
-                    q.add(v);
-                    count++;
-                }
+            int t = q.poll();
+            ans.add(t);
+            for(int u: adj.get(t)){
+                in[u]--;
+                if(in[u]==0) 
+                    q.add(u);
             }
         }
-        return count!=degree.length?new int[0]:ans.stream().mapToInt(Integer::intValue).toArray();
-    }
-    static class Node{
-        int val;
-        List<Node> list;
-        Node(int val){
-            this.val  =val;
-            this.list = new ArrayList<>();
-        }
+        if(ans.size()!=n) return new int[]{};
+        return ans.stream().mapToInt(Integer::intValue).toArray();
+    
     }
 }
