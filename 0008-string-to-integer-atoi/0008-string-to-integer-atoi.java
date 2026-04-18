@@ -1,36 +1,31 @@
 class Solution {
-    //0-1
+    //" ", '-','+',skip leading zeroes, roundup to INT_MAX, INT_MIN
+    //1337c0d3 -> 1337
+
+    //trim(), getSign(), skip leading zeros
     public int myAtoi(String s) {
-        s=s.trim();
-        int n = s.length();
-        if(n==0) return 0;
-        int i=0, sign = 1;
-        long num = 0;
-     
-        if(s.charAt(i)=='+'){
-            i++;
-            sign = 1;
-        }else if(s.charAt(i)=='-'){
-            i++;
+        if(s==null || s.length()==0) return 0;
+        int INT_MAX = Integer.MAX_VALUE;
+        int INT_MIN = Integer.MIN_VALUE;
+
+        int i=0, n=s.length();
+        while(i<n && s.charAt(i)==' ') i++;
+        if(i==n) return 0;
+
+        int sign = 1;
+        if(s.charAt(i)=='+') i++;
+        else if(s.charAt(i) == '-'){
             sign =-1;
+            i++;
         }
-        for(;i<n;i++){
-            //2147483647
-            if(num>Integer.MAX_VALUE){
-                if(sign==-1) return Integer.MIN_VALUE;
-                if(sign==1) return Integer.MAX_VALUE;
-            }
-            char ch = s.charAt(i);
-            System.out.println(ch+" "+i);
-            if(ch=='0' && i==0) continue;
-            
-            if(Character.isDigit(ch)) 
-                num=num*(long)10+(ch-'0');
-            else break;
+        long res = 0;
+        while(i<n && Character.isDigit(s.charAt(i))){
+            int d = s.charAt(i)-'0';
+            res = res*10+d;
+            if(sign*res<=INT_MIN) return INT_MIN;
+            if(sign*res>=INT_MAX) return INT_MAX;
+            i++;
         }
-        System.out.println(num);
-        System.out.println(Integer.MAX_VALUE);
-        num = sign==1?num:sign==-1?num*-1:num;
-        return num>=Integer.MAX_VALUE?Integer.MAX_VALUE:num<=Integer.MIN_VALUE?Integer.MIN_VALUE:(int)num;
+        return (int) res*sign;
     }
 }
