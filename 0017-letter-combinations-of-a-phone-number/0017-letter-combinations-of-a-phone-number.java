@@ -1,22 +1,30 @@
 class Solution {
-     static String keypad[]={"0", "1", "abc", "def", "ghi", "jkl", "mno","pqrs","tuv", "wxyz"};
+    //23
+    //a b c
+    //ad ae af bd be bf cd ce cf
+    String words[]={"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
     public List<String> letterCombinations(String digits) {
-        List<String>list=new ArrayList<>();
-        dfs(list, 0, digits, new StringBuilder());
-        return list;
+        List<String> ans = new ArrayList<>();
+        dfs(digits,ans,0, new StringBuilder());
+        return ans;
     }
-    
-    static void dfs(List<String> list, int i, String digits, StringBuilder sb)
-    {
+    void dfs(String digits, List<String> ans, int i, StringBuilder sb){
         if(sb.length()==digits.length()){
-            list.add(sb.toString());
+            ans.add(sb.toString());
             return;
         }
+        // System.out.println(sb.toString());
+        // System.out.println("hre");
 
-        String currKeySet = keypad[digits.charAt(i)-'0'];
-        for(char c: currKeySet.toCharArray()){
+        //abc
+        //a
+        //
+        String word = words[digits.charAt(i)-'0'];
+        // System.out.println(word);
+        for(char c: word.toCharArray()){
+            // System.out.println(c);
             sb.append(c);
-            dfs(list, i+1, digits, sb);
+            dfs(digits, ans, i+1, sb);
             sb.deleteCharAt(sb.length()-1);
         }
     }
