@@ -1,22 +1,30 @@
 class Solution {
+    List<String> ans = new ArrayList<>();
     public List<String> generateParenthesis(int n) {
-       List<String> res = new ArrayList<>();
-        dfs(n,new StringBuilder(), 0, 0 , res);
-        return res;
+        dfs(n, 0,0, new StringBuilder());
+        return ans;
     }
 
-    void dfs(int n, StringBuilder str, int o, int c, List<String> res){
-        if(str.toString().length()==2*n){
-            res.add(str.toString());
+    void dfs(int n , int open, int close, StringBuilder sb){
+        if(sb.length()==n*2){
+            ans.add(sb.toString());
             return;
         }
 
-        if(o<n) {dfs(n, str.append("("), o+1, c, res);
-         str.deleteCharAt(str.length() - 1);
+        // System.out.println(ans);
+        
+        //((( <n
+        if(open<n){
+            dfs(n, open+1, close, sb.append("("));
+            sb.deleteCharAt(sb.length()-1);
         }
-        if(c<o) {
-            dfs(n, str.append(")"), o, c+1, res);
-         str.deleteCharAt(str.length() - 1);
+
+        //close<open
+        //()))) not allowed
+        //((() can be done
+        if(open>close){
+            dfs(n, open, close+1, sb.append(")"));
+            sb.deleteCharAt(sb.length()-1);
         }
     }
 }
