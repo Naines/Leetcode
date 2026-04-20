@@ -1,9 +1,13 @@
 class Solution {
-    public int networkDelayTime(int[][] times, int n, int k) {
 
-        //build graph
+    //src=k, find distances of all nodes from k
+    //min distance win
+    //use PQ, poll and relax the edges
+    public int networkDelayTime(int[][] times, int n, int k) {
         List<List<int[]>> graph = new ArrayList<>();
-        for (int i = 0; i <= n; i++) graph.add(new ArrayList<>());
+        for (int i = 0; i <= n; i++) 
+            graph.add(new ArrayList<>());
+
         for (int[] edge : times) {
             graph.get(edge[0]).add(new int[]{edge[1], edge[2]});
         }
@@ -29,10 +33,11 @@ class Solution {
             
         }
         int ans = 0;
-            for (int i = 1; i <= n; i++) {
-                if (dist[i] == Integer.MAX_VALUE) return -1;
-                ans = Math.max(ans, dist[i]);
-            }
-            return ans;
+        for (int i = 1; i <= n; i++) {
+            if (dist[i] == Integer.MAX_VALUE) return -1;
+            ans = Math.max(ans, dist[i]);
+        }
+        return ans;
     }
+
 }
