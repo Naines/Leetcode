@@ -12,8 +12,8 @@ class Solution {
             adj.get(p[i][0]).add(p[i][1]);
             in[p[i][1]]++;
         }
-        for(int i=0;i<n;i++) System.out.println(i+":"+adj.get(i));
-        for(int i=0;i<n;i++) System.out.println(in[i]);
+        // for(int i=0;i<n;i++) System.out.println(i+":"+adj.get(i));
+        // for(int i=0;i<n;i++) System.out.println(in[i]);
 
         for(int i=0;i<n;i++) if(in[i]==0) q.add(i);
         while(!q.isEmpty()){
