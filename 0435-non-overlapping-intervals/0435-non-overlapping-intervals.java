@@ -2,10 +2,16 @@ class Solution {
 
     //12 23 34
     //13
-    
+
+    //1234
+    //.***
+    //$$$.
+
     //sort by end time
-    //find count of non-overlapping intervals
+    //find count of non-overlapping intervals -> 
+    //prev[end]<=curr[start] -> non-overlap count++
     //return total - count
+
     public int eraseOverlapIntervals(int[][] intervals) {
         int n = intervals.length;
         Arrays.sort(intervals, (a, b) -> Integer.compare(a[1], b[1]));
