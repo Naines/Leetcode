@@ -1,12 +1,17 @@
 class Solution {
+    //gas = [1,2,3,4,5],
+    //cost= [3,4,5,1,2]
     public int canCompleteCircuit(int[] gas, int[] cost) {
         //simualtion
         //go thru stations, get fuel and check if fuel available for next itr
         int n = gas.length;
+
+        //special case to find if not possible
         int Sgas =  Arrays.stream(gas).sum();
         int Scost = Arrays.stream(cost).sum();
         if(Sgas<Scost) return -1;
 
+        //start from first index
         int carry = 0,start=-1;
         for(int i=0;i<n;i++){
             int x = gas[i]-cost[i]+carry;
@@ -21,6 +26,5 @@ class Solution {
             }
         }
         return start;
-
     }
 }
