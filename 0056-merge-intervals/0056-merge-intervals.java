@@ -1,4 +1,6 @@
 class Solution {
+    //sort by start time,, compare ends and starts of prev and curr
+    //next start<prev end, then merge
     public int[][] merge(int[][] intervals) {
         List<int[]> ans = new ArrayList<>();
         int n = intervals.length;
