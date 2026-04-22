@@ -1,28 +1,32 @@
 class Solution {
-    public int[][] insert(int[][] arr, int[] b) {
-        List<int[]> result = new ArrayList<>();
-        int i=0;
-        
-        // add all the intervals ending before newInterval starts
-        while(i<arr.length && arr[i][1]< b[0]){
-            result.add(arr[i]);
+    /**
+    case1: add to start
+    case2: add to mid -> add all intervals with e<ni[0] to list
+    ni[0]<=e, merge
+    case 3: add to end
+     */
+    public int[][] insert(int[][] intervals, int[] ni) {
+        List<int[]> list=new ArrayList<>();
+        int i=0, n=intervals.length;
+        while(i<n && intervals[i][1]<ni[0]){
+            list.add(intervals[i]);
             i++;
         }
 
-        // merge all overlapping intervals to one considering newInterval
-        while(i<arr.length && arr[i][0]<=b[1]){
-            b[0] = Math.min(b[0], arr[i][0]);
-            b[1]= Math.max(b[1], arr[i][1]);
+        while(i<n && intervals[i][0] <= ni[1]){
+            ni[0]=Math.min(ni[0], intervals[i][0]);
+            ni[1]=Math.max(ni[1], intervals[i][1]);
             i++;
         }
-
-        result.add(b);
-
-        while(i<arr.length){
-            result.add(arr[i]);
-            i++;
+        list.add(ni);
+        while(i<n){
+            list.add(intervals[i++]);
         }
-        return result.toArray(new int[result.size()][]);
-
+        int res[][]=new int[list.size()][2];
+        for(int x=0;x<list.size();x++){
+            res[x][0]=list.get(x)[0];
+            res[x][1]=list.get(x)[1];
+        }
+        return res;
     }
 }
