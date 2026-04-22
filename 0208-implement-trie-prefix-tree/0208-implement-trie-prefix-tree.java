@@ -1,46 +1,54 @@
+//.
+//......
+//a
+//p n
+//ep t
+//l
+//e
 class Trie {
     Trie kids[];
     boolean end;
     public Trie() {
-        kids = new Trie[26];
-        end = false;
+        //create root node
+        kids=new Trie[26];
+        end=false;
     }
     
     public void insert(String word) {
-        Trie curr = this;
-        for(int i=0;i<word.length();i++){
-            int idx = word.charAt(i)-'a';
+        //go through each char, and keep inserting by finding the node
+        Trie curr=this;
+        for(char c: word.toCharArray()){
+            int idx=c-'a';
             if(curr.kids[idx]==null)
                 curr.kids[idx]=new Trie();
-            curr= curr.kids[idx];
+            curr=curr.kids[idx];
         }
-        curr.end = true;
+        curr.end=true;
     }
     
     public boolean search(String word) {
-        Trie curr = this;
-        for(int i=0;i<word.length();i++){
-            int idx = word.charAt(i)-'a';
-            if(curr.kids[idx]==null)
-                return false;
-            curr = curr.kids[idx];
+        Trie curr=this;
+        for(char c: word.toCharArray()){
+            int idx=c-'a';
+            if(curr.kids[idx]==null) return false;
+            curr=curr.kids[idx];
         }
-        return curr.end;
+        //reached end here
+        return curr.end==true;
     }
     
     public boolean startsWith(String prefix) {
-        Trie curr =this;
-        for(int i=0;i<prefix.length();i++){
-            int idx = prefix.charAt(i)-'a';
-            if(curr.kids[idx]==null){
-                return false;
-            }
-            curr = curr.kids[idx];
+        Trie curr=this;
+        for(char c: prefix.toCharArray()){
+            int idx=c-'a';
+            if(curr.kids[idx]==null) return false;
+            curr=curr.kids[idx];
         }
-        //reached end
+        //reached end here
         return true;
-
     }
+
+
 }
 
 /**
