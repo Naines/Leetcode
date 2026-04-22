@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1539-kth-missing-positive-number](https://github.com/Naines/Leetcode/tree/master/1539-kth-missing-positive-number) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Naines/Leetcode/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1652-defuse-the-bomb](https://github.com/Naines/Leetcode/tree/master/1652-defuse-the-bomb) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/Naines/Leetcode/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/Naines/Leetcode/tree/master/1707-maximum-xor-with-an-element-from-array) |
 | [1710-maximum-units-on-a-truck](https://github.com/Naines/Leetcode/tree/master/1710-maximum-units-on-a-truck) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Naines/Leetcode/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Naines/Leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/Naines/Leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1497-check-if-array-pairs-are-divisible-by-k](https://github.com/Naines/Leetcode/tree/master/1497-check-if-array-pairs-are-divisible-by-k) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/Naines/Leetcode/tree/master/1679-max-number-of-k-sum-pairs) |
 | [2261-k-divisible-elements-subarrays](https://github.com/Naines/Leetcode/tree/master/2261-k-divisible-elements-subarrays) |
 | [2365-task-scheduler-ii](https://github.com/Naines/Leetcode/tree/master/2365-task-scheduler-ii) |
 | [2429-design-a-food-rating-system](https://github.com/Naines/Leetcode/tree/master/2429-design-a-food-rating-system) |
@@ -337,6 +339,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-middle-of-the-linked-list](https://github.com/Naines/Leetcode/tree/master/0876-middle-of-the-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/Naines/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [1048-longest-string-chain](https://github.com/Naines/Leetcode/tree/master/1048-longest-string-chain) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/Naines/Leetcode/tree/master/1679-max-number-of-k-sum-pairs) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Naines/Leetcode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Naines/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Naines/Leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
@@ -502,6 +505,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Naines/Leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1331-rank-transform-of-an-array](https://github.com/Naines/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Naines/Leetcode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/Naines/Leetcode/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1710-maximum-units-on-a-truck](https://github.com/Naines/Leetcode/tree/master/1710-maximum-units-on-a-truck) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Naines/Leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [2751-robot-collisions](https://github.com/Naines/Leetcode/tree/master/2751-robot-collisions) |
