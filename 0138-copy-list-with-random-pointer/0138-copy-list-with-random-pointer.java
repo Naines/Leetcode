@@ -27,6 +27,8 @@ class Solution {
         
         curr=head;
         while(curr!=null){
+            //newNode.next = map.get(original.next)
+            //newNode.random = map.get(original.random)
             map.get(curr).next=map.get(curr.next);
             map.get(curr).random=map.get(curr.random);
             curr=curr.next;
