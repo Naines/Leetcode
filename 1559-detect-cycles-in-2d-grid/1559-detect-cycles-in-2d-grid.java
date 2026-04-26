@@ -15,7 +15,7 @@ class Solution {
             for(int j=0;j<w;j++){
                 if(vis[i][j]) continue;
                 if(dfs(i, j, vis, grid[i][j], i, j)) return true;
-                System.out.println("here");
+                // System.out.println("here");
             }
         }
         return false;
