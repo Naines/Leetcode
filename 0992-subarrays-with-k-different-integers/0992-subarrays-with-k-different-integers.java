@@ -1,29 +1,29 @@
 class Solution {
+    /**
+    k=2
+    1,2,3,1,2 -> 1,2,3
 
-    //12123
-    //11221
-    //
-    //map.size()!=k
+     */
     public int subarraysWithKDistinct(int[] nums, int k) {
-        return solve(nums, k)-solve(nums, k-1);
+      return atMostK(nums, k)-atMostK(nums, k-1);
     }
 
-    int solve(int nums[], int k){
+    int atMostK(int nums[], int k){
         if(k<0) return 0;
-       int map[]=new int[20001];
-       int l=0, ans=0, count =0;
-       for(int r=0;r<nums.length;r++){
+        int map[]=new int[20010];
+        int count = 0,ans=0, l=0;
+        for(int r=0;r<nums.length;r++){
+            //add
             map[nums[r]]++;
-            if(map[nums[r]]==1) count++;
-
+            if(map[nums[r]]==1) count++; //add for first time
             while(count>k){
+                //remove
                 map[nums[l]]--;
-                if(map[nums[l]]==0) count--;
+                if(map[nums[l]]==0) count--; //remove
                 l++;
             }
-           
             ans+=(r-l+1);
-       }
-       return ans;
+        }
+        return ans;
     }
 }
