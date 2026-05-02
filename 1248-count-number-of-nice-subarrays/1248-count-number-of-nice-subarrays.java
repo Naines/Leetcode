@@ -1,20 +1,19 @@
 class Solution {
-    //rrrrrr
-    //211211,3
-
-    //21121
-    //1121
-    //1211
-
-    //if(count==k) ans++;
     public int numberOfSubarrays(int[] nums, int k) {
-        int pre=0, n=nums.length, ans=0;
-        Map<Integer, Integer> map=new HashMap<>();
-        map.put(0, 1);
-        for(int i=0;i<nums.length;i++){
-            if(nums[i]%2!=0) pre++;
-            ans+=map.getOrDefault(pre-k,0);
-            map.put(pre, map.getOrDefault(pre,0)+1);
+        return atMostK(nums, k)-atMostK(nums, k-1);
+    }
+
+    int atMostK(int nums[], int k){
+        if(k<0) return 0;
+        int n=nums.length, ans=0, l=0, count=0;
+        for(int r=0;r<n;r++){
+            if(nums[r]%2!=0) count++;
+            while(count>k){
+                if(nums[l]%2!=0) count--;
+                l++;
+            }
+            //count<=k at this point
+            ans+=r-l+1;
         }
         return ans;
     }
