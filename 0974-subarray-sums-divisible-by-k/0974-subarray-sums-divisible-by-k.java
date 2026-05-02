@@ -21,7 +21,7 @@ class Solution {
         map.put(0,1);
         for(int x: nums){
             sum+=x;
-            rem= (sum%k+k)%k;
+            rem=(sum%k+k)%k;
             count+=map.getOrDefault(rem, 0);
             map.put(rem, map.getOrDefault(rem, 0)+1);
         }
