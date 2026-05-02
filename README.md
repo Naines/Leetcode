@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0057-insert-interval](https://github.com/Naines/Leetcode/tree/master/0057-insert-interval) |
 | [0063-unique-paths-ii](https://github.com/Naines/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Naines/Leetcode/tree/master/0064-minimum-path-sum) |
+| [0066-plus-one](https://github.com/Naines/Leetcode/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/Naines/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/Naines/Leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Naines/Leetcode/tree/master/0079-word-search) |
@@ -391,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Naines/Leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Naines/Leetcode/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/Naines/Leetcode/tree/master/0062-unique-paths) |
+| [0066-plus-one](https://github.com/Naines/Leetcode/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/Naines/Leetcode/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/Naines/Leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Naines/Leetcode/tree/master/0204-count-primes) |
