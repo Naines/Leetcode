@@ -10,8 +10,6 @@ class Solution {
             ans.add(sb.toString());
             return;
         }
-
-        // System.out.println(ans);
         
         //((( <n
         if(open<n){
