@@ -1,19 +1,21 @@
 class Solution {
-    public List<List<Integer>> combinationSum(int[] a, int t) {
-        List<List<Integer>> res = new ArrayList<>();
-        dfs(a, t, new ArrayList<Integer>(), 0, res);
-        return res;
+    List<List<Integer>> ans=new ArrayList<>();
+    int nums[];
+    public List<List<Integer>> combinationSum(int[] nums, int target) {
+        this.nums=nums;
+        dfs(0, new ArrayList<>(), target);
+        return ans;
     }
 
-    void dfs(int a[], int trgt, List<Integer> curr, int idx, List<List<Integer>> res){
-        if(trgt<0) return;
-        if(trgt==0){
-            res.add(new ArrayList<Integer>(curr));
+    void dfs(int idx, List<Integer> curr, int t){
+        if(t<0) return;
+        if(t==0){
+            ans.add(new ArrayList<>(curr));
             return;
         }
-        for(int i=idx;i<a.length;i++){
-            curr.add(a[i]);
-            dfs(a, trgt-a[i],curr, i, res);
+        for(int i=idx;i<nums.length;i++){
+            curr.add(nums[i]);
+            dfs(i, curr, t-nums[i]);
             curr.remove(curr.size()-1);
         }
     }
