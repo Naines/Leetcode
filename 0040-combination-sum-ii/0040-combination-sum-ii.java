@@ -15,6 +15,7 @@ class Solution {
         }
         for(int i=idx;i<nums.length;i++){
             if(i>idx && nums[i]==nums[i-1]) continue;
+            if(nums[i]>t) break;
             curr.add(nums[i]);
             dfs(i+1, curr, t-nums[i]);
             curr.remove(curr.size()-1);
