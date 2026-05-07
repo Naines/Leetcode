@@ -1,19 +1,22 @@
 class Solution {
-    static int dp[]=new int[256];
+    //count bits
     public int[] countBits(int n) {
-        init();
-        
-        int ans[] = new int[n+1];
-        ans[0]=0;
-        for(int i=1;i<=n;i++){
-            ans[i] = dp[i&0xff]+dp[(i>>8)&0xff]+dp[(i>>16)&0xff];
+        int ans[]=new int[n+1];
+        for(int i=0;i<=n;i++){
+            ans[i]=count(i);
         }
         return ans;
     }
-    void init(){
-        dp[0]=0;
-        for(int i=1;i<=255;i++){
-            dp[i] = dp[i>>1]+(i&1);
+    //1010 
+    //1001
+    //1000 -> 8
+    //0111
+    int count(int n){
+        int ans=0;
+        while(n>0){
+            n=n&n-1;
+            ans++;
         }
+        return ans;
     }
 }
