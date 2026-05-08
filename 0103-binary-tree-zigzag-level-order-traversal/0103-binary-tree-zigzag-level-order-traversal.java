@@ -14,35 +14,35 @@
  * }
  */
 class Solution {
+    List<List<Integer>> ans = new ArrayList<>();
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
-        boolean ltr = false;
-        List<List<Integer>> res = new ArrayList<>();
-        if(root==null) return res;
-        Queue<TreeNode> q = new LinkedList<>();
+        if(root==null) return ans;
+        Queue<TreeNode> q= new LinkedList<>();
         q.add(root);
-        List<Integer> a=new ArrayList<>();
-        a.add(root.val);
-        res.add(a);
-        while(q.size()>0){
+        List<Integer> l=new ArrayList<>();
+        l.add(root.val);
+        ans.add(l);
+        int row=1;
+        while(!q.isEmpty()){
             int s=q.size();
-            a=new ArrayList<>();
+            List<Integer> list=new ArrayList<>();
             for(int i=0;i<s;i++){
-                TreeNode t = q.poll();
+                TreeNode t=q.poll();
                 if(t.left!=null){
-                    a.add(t.left.val);
                     q.add(t.left);
+                    list.add(t.left.val);
                 }
-                if(t.right!=null) {
-                    a.add(t.right.val);
+                if(t.right!=null){
                     q.add(t.right);
+                    list.add(t.right.val);
                 }
             }
-            if(ltr==false){
-                Collections.reverse(a);
+            if(row%2!=0){
+                Collections.reverse(list);
             }
-            ltr=!ltr;
-            if(a.size()>0) res.add(a);
+            row++;
+            if(list.size()>0) ans.add(new ArrayList<>(list));
         }
-        return res;
+        return ans;
     }
 }
