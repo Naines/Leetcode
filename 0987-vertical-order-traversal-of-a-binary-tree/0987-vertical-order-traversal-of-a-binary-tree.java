@@ -29,13 +29,13 @@ class Solution {
     Map<Integer, List<Integer>> map = new TreeMap<>();
     public List<List<Integer>> verticalTraversal(TreeNode root) {
         Queue<Node> q=new LinkedList<>();
+        Map<Integer, List<Integer>> minMap=new HashMap<>();
         q.add(new Node(root, 0,0 ));
         map.put(0, new ArrayList<>());
         map.get(0).add(root.val);
         while(!q.isEmpty()){
             int s=q.size();
             // System.out.println(s);
-            Map<Integer, List<Integer>> minMap=new HashMap<>();
             for(int i=0;i<s;i++){
                 Node t=q.poll();
                 // System.out.println(t.n.val+" polled");
@@ -76,6 +76,7 @@ class Solution {
                 Collections.sort(e.getValue());
                 map.get(key).addAll(e.getValue());
             }
+            minMap.clear();
         }
         for(Map.Entry<Integer, List<Integer>> e: map.entrySet()){
            ans.add(e.getValue());
