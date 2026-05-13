@@ -13,35 +13,19 @@
  *     }
  * }
  */
-class Solution 
-{
-    boolean ans=false;
+class Solution {
+    Set<Integer> set = new HashSet<>();
     public boolean findTarget(TreeNode root, int k) {
-        Set<Integer> set=new HashSet<>();
-        populate(set, root);
-        find(set, root,k);
-        return ans;
+        return dfs(root, k);
     }
-    void populate(Set<Integer> set, TreeNode root)
-    {
-        if(root!=null)
-        {
-            populate(set, root.left);
-            set.add(root.val);
-            populate(set, root.right);
-            
-        }
+
+    boolean dfs(TreeNode r, int t){
+        if(r==null) return false;
+        if(dfs(r.left, t)) return true;
+        if(set.contains(t-r.val)) return true;
+        set.add(r.val);
+        if(dfs(r.right, t)) return true;
+        return false;
     }
-     void find(Set<Integer> set, TreeNode root,int k)
-    {
-        if(root!=null)
-        {
-            find(set, root.left, k);
-            set.remove(root.val);
-            if(set.contains(k-root.val)) ans= true;
-            set.add(root.val);
-            find(set, root.right, k);
-        }
-    }
-    
+
 }
