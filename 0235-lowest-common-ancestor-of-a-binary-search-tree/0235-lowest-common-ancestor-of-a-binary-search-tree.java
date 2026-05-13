@@ -10,12 +10,16 @@
 
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-       while((root.val - (long)p.val)*(root.val-(long)q.val) > 0){
-            if(root.val>p.val) root=root.left;
-            else root=root.right;
-       }
-       return root;
+      return dfs(root, p, q);
+    }
 
-    
+    TreeNode dfs(TreeNode r, TreeNode p, TreeNode q){
+        if(r==null) return null;
+        if(p.val<r.val && q.val<r.val){
+            return dfs(r.left, p, q);
+        }else if(p.val>r.val && q.val>r.val){
+            return dfs(r.right, p, q);
+        }
+        return r;
     }
 }
