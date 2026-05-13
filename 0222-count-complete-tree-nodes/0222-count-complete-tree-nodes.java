@@ -14,35 +14,22 @@
  * }
  */
 class Solution {
-    int count =0;
+    int height(TreeNode root){
+        if(root==null) return -1;
+        return height(root.left)+1;
+    }
     public int countNodes(TreeNode root) {
-       if(root==null) return 0;
-       int left = findHeightLeft(root);
-       int right = findHeightRight(root);
-       if(left==right) return (1<<left)-1;
-       return 1 + countNodes(root.left) + countNodes(root.right);
-    }
-    // void dfs(TreeNode root){
-    //     if(root==null) return;
-    //     dfs(root.left);
-    //     count++;
-    //     dfs(root.right);
-    // }
-    public int findHeightLeft(TreeNode node) {
-        int height = 0;
-        while (node != null) {
-            height++;
-            node = node.left;
+        int ans =0, h=height(root);
+        while(root!=null){
+            if(height(root.right)==h-1){
+                ans+=(1<<h);
+                root=root.right;
+            }else{
+                ans+=(1<<h-1);
+                root=root.left;
+            }
+            h--;
         }
-        return height;
-    }
-
-    public int findHeightRight(TreeNode node) {
-        int height = 0;
-        while (node != null) {
-            height++;
-            node = node.right;
-        }
-        return height;
+        return ans;
     }
 }
