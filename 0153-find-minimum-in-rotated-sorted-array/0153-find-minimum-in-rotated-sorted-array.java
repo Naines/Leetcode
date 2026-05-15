@@ -7,19 +7,16 @@
 class Solution {
     public int findMin(int[] nums) {
         int lb=0, ub=nums.length-1;
-        int ans=-1;
         while(lb<ub){
             int mid=(lb+ub)/2;
-            System.out.println(nums[mid]+" "+mid+" "+lb+" "+ub);
+            // System.out.println(nums[mid]+" "+mid+" "+lb+" "+ub);
             if(nums[mid]<=nums[ub]){
-                //look left
-                ans=nums[mid];
                 ub=mid;
             }else{
                 //look right
                 lb=mid+1;
             }
         }
-        return nums[ub];
+        return nums[lb];
     }
 }
