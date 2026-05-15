@@ -1,14 +1,25 @@
+
+/**
+4,5,6,7,0,1,2
+
+
+ */
 class Solution {
     public int findMin(int[] nums) {
         int lb=0, ub=nums.length-1;
+        int ans=-1;
         while(lb<ub){
-            int m = (lb+ub)/2;
-            if(nums[m]>nums[ub]){
-                lb= m+1;
+            int mid=(lb+ub)/2;
+            System.out.println(nums[mid]+" "+mid+" "+lb+" "+ub);
+            if(nums[mid]<=nums[ub]){
+                //look left
+                ans=nums[mid];
+                ub=mid;
             }else{
-                ub=m;
+                //look right
+                lb=mid+1;
             }
         }
-        return nums[lb];
+        return nums[ub];
     }
 }
