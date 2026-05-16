@@ -11,7 +11,7 @@ class Solution {
                 dp[i]=Math.min(dp[i], dp[i-coins[j-1]]+1);
             }
         } 
-        System.out.println(Arrays.toString(dp));
+        // System.out.println(Arrays.toString(dp));
         return dp[amount]==(int)1e8?-1:dp[amount];
     }
 }
