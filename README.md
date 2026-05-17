@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/Naines/Leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Naines/Leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Naines/Leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
+| [1306-jump-game-iii](https://github.com/Naines/Leetcode/tree/master/1306-jump-game-iii) |
 | [1331-rank-transform-of-an-array](https://github.com/Naines/Leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Naines/Leetcode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Naines/Leetcode/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
@@ -800,6 +801,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Naines/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Naines/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/Naines/Leetcode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
+| [1306-jump-game-iii](https://github.com/Naines/Leetcode/tree/master/1306-jump-game-iii) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Naines/Leetcode/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Naines/Leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
 ## Binary Tree
@@ -886,6 +888,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/Naines/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Naines/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0994-rotting-oranges](https://github.com/Naines/Leetcode/tree/master/0994-rotting-oranges) |
+| [1306-jump-game-iii](https://github.com/Naines/Leetcode/tree/master/1306-jump-game-iii) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Naines/Leetcode/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Naines/Leetcode/tree/master/1559-detect-cycles-in-2d-grid) |
 ## Union Find
