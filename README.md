@@ -154,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Naines/Leetcode/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Naines/Leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2751-robot-collisions](https://github.com/Naines/Leetcode/tree/master/2751-robot-collisions) |
+| [2808-minimum-seconds-to-equalize-a-circular-array](https://github.com/Naines/Leetcode/tree/master/2808-minimum-seconds-to-equalize-a-circular-array) |
 | [2906-construct-product-matrix](https://github.com/Naines/Leetcode/tree/master/2906-construct-product-matrix) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Naines/Leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2962-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Naines/Leetcode/tree/master/2962-count-subarrays-where-max-element-appears-at-least-k-times) |
@@ -222,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2365-task-scheduler-ii](https://github.com/Naines/Leetcode/tree/master/2365-task-scheduler-ii) |
 | [2429-design-a-food-rating-system](https://github.com/Naines/Leetcode/tree/master/2429-design-a-food-rating-system) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Naines/Leetcode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2808-minimum-seconds-to-equalize-a-circular-array](https://github.com/Naines/Leetcode/tree/master/2808-minimum-seconds-to-equalize-a-circular-array) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Naines/Leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Naines/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/Naines/Leetcode/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
