@@ -1,35 +1,32 @@
 class Solution {
-
-    //reverse toposort
     public List<Integer> eventualSafeNodes(int[][] graph) {
-        int n = graph.length;
-        Queue<Integer> q=new LinkedList<>();
-        List<Integer> ans = new ArrayList<>();
+        int n=graph.length;
         int in[]=new int[n];
-        List<List<Integer>> adj= new ArrayList<>();
-        for(int i=0;i<n;i++)
-            adj.add(new ArrayList<>());
-        
+        ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
+        Queue<Integer> q=new LinkedList<>();
+        for(int i=0;i<n;i++) adj.add(new ArrayList<>());
         for(int i=0;i<n;i++){
-            for(int x: graph[i]){
-                adj.get(x).add(i);
+            for(int j=0;j<graph[i].length;j++){
+                adj.get(graph[i][j]).add(i);
+                in[i]++;
             }
         }
-        for(int u=0;u<n;u++){
-            for(int v: adj.get(u)){
-                in[v]++;
-            }
-        }
+
+        // for(int i=0;i<n;i++) System.out.println(adj.get(i));
+        // System.out.println(Arrays.toString(in));
         for(int i=0;i<n;i++) if(in[i]==0) q.add(i);
+
+        List<Integer> top=new ArrayList<>();
+        
         while(!q.isEmpty()){
             int t=q.poll();
-            ans.add(t);
+            top.add(t);
             for(int v: adj.get(t)){
                 in[v]--;
                 if(in[v]==0) q.add(v);
             }
         }
-        Collections.sort(ans);
-        return ans;
+        Collections.sort(top);
+        return top;
     }
 }
