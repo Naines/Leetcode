@@ -1,33 +1,31 @@
 class Solution {
-
-    //[1,0] ,, 0->1
-    public int[] findOrder(int n, int[][] p) {
+    //[1,0][1,2][0,1]
+    //0=1  
+    //2-1
+    public int[] findOrder(int n, int[][] pre) {
         int in[]=new int[n];
-        boolean vis[]=new boolean[n];
-        List<List<Integer>> adj=new ArrayList<>();
-        List<Integer> ans = new ArrayList<>();
+        ArrayList<ArrayList<Integer>> graph = new ArrayList<>();
         Queue<Integer> q=new LinkedList<>();
-        for(int i=0;i<n;i++) adj.add(new ArrayList<Integer>());
-        for(int i=0;i<p.length;i++){
-            adj.get(p[i][0]).add(p[i][1]);
-            in[p[i][1]]++;
+        for(int i=0;i<n;i++) graph.add(new ArrayList<>());
+        for(int i=0;i<pre.length;i++){
+            // System.out.println(pre[i][1]+" "+pre[i][0]);
+            graph.get(pre[i][1]).add(pre[i][0]);
+            in[pre[i][0]]++;
         }
-        // for(int i=0;i<n;i++) System.out.println(i+":"+adj.get(i));
-        // for(int i=0;i<n;i++) System.out.println(in[i]);
-
+        // for(int i=0;i<n;i++) System.out.println(graph.get(i));
+        // System.out.println(Arrays.toString(in));
         for(int i=0;i<n;i++) if(in[i]==0) q.add(i);
+
+        List<Integer> top=new ArrayList<>();
+        //count==top.size()
         while(!q.isEmpty()){
-            int u=q.poll();
-            ans.add(u);
-            for(int v:adj.get(u)){
-                // System.out.println(u+":"+v);
+            int t=q.poll();
+            top.add(t);
+            for(int v: graph.get(t)){
                 in[v]--;
                 if(in[v]==0) q.add(v);
             }
         }
-        if(ans.size()!=n) return new int[]{};
-        Collections.reverse(ans);
-        return ans.stream().mapToInt(Integer::intValue).toArray();
-        
+        return top.size()==n?top.stream().mapToInt(Integer::intValue).toArray():new int[0];
     }
 }
