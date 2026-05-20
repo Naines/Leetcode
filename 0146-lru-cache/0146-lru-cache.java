@@ -3,10 +3,7 @@ class LRUCache {
         int k;
         int v;
         Node prev, next;
-        Node(){
-            // this.v = ;
-            // this.k = -1;
-        }
+        Node(){}
         Node(int k, int v){
             this.k=k;
             this.v= v;
