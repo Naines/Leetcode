@@ -10,7 +10,7 @@ class Solution {
         boolean res = false;
         for(int i=0;i<h;i++){
             for(int j=0;j<w;j++){
-                if(word.charAt(0) == board[i][j] && vis[i][j]==false){
+                if(word.charAt(0) == board[i][j]){
                     //System.out.println(i+" "+j);
                     res = res || dfs(i, j, vis, 0);
                 }
