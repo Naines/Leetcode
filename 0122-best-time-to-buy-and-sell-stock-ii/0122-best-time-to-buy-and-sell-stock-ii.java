@@ -1,18 +1,12 @@
 class Solution {
-
-    //if buyAt < currPrice
-    //buy
+    //profit booking based on price for prev day
     public int maxProfit(int[] prices) {
-        int buyAt = prices[0], profit = 0;
+        int ans=0, max=0;
         for(int i=1;i<prices.length;i++){
-
-            if(buyAt>prices[i]){
-                buyAt = prices[i];
-            }else{
-                profit+=prices[i]-buyAt;
-                buyAt = prices[i];
-            }
+            //max: max profit till date if I sell today
+            max=Math.max(max+prices[i]-prices[i-1], max);
+            ans=Math.max(ans, max);
         }
-        return profit;
+        return ans;
     }
 }
