@@ -765,6 +765,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0513-find-bottom-left-tree-value](https://github.com/Naines/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0543-diameter-of-binary-tree](https://github.com/Naines/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0590-n-ary-tree-postorder-traversal](https://github.com/Naines/Leetcode/tree/master/0590-n-ary-tree-postorder-traversal) |
+| [0617-merge-two-binary-trees](https://github.com/Naines/Leetcode/tree/master/0617-merge-two-binary-trees) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Naines/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Naines/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/Naines/Leetcode/tree/master/0700-search-in-a-binary-search-tree) |
@@ -806,6 +807,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/Naines/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/Naines/Leetcode/tree/master/0547-number-of-provinces) |
 | [0590-n-ary-tree-postorder-traversal](https://github.com/Naines/Leetcode/tree/master/0590-n-ary-tree-postorder-traversal) |
+| [0617-merge-two-binary-trees](https://github.com/Naines/Leetcode/tree/master/0617-merge-two-binary-trees) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Naines/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Naines/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0721-accounts-merge](https://github.com/Naines/Leetcode/tree/master/0721-accounts-merge) |
@@ -849,6 +851,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0450-delete-node-in-a-bst](https://github.com/Naines/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0513-find-bottom-left-tree-value](https://github.com/Naines/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0543-diameter-of-binary-tree](https://github.com/Naines/Leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0617-merge-two-binary-trees](https://github.com/Naines/Leetcode/tree/master/0617-merge-two-binary-trees) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Naines/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Naines/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/Naines/Leetcode/tree/master/0700-search-in-a-binary-search-tree) |
@@ -895,6 +898,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/Naines/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0513-find-bottom-left-tree-value](https://github.com/Naines/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
 | [0547-number-of-provinces](https://github.com/Naines/Leetcode/tree/master/0547-number-of-provinces) |
+| [0617-merge-two-binary-trees](https://github.com/Naines/Leetcode/tree/master/0617-merge-two-binary-trees) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Naines/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/Naines/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0721-accounts-merge](https://github.com/Naines/Leetcode/tree/master/0721-accounts-merge) |
