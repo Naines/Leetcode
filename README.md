@@ -148,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Naines/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/Naines/Leetcode/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2104-sum-of-subarray-ranges](https://github.com/Naines/Leetcode/tree/master/2104-sum-of-subarray-ranges) |
+| [2126-destroying-asteroids](https://github.com/Naines/Leetcode/tree/master/2126-destroying-asteroids) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Naines/Leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2261-k-divisible-elements-subarrays](https://github.com/Naines/Leetcode/tree/master/2261-k-divisible-elements-subarrays) |
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/Naines/Leetcode/tree/master/2302-count-subarrays-with-score-less-than-k) |
@@ -571,6 +572,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1679-max-number-of-k-sum-pairs](https://github.com/Naines/Leetcode/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1710-maximum-units-on-a-truck](https://github.com/Naines/Leetcode/tree/master/1710-maximum-units-on-a-truck) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/Naines/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [2126-destroying-asteroids](https://github.com/Naines/Leetcode/tree/master/2126-destroying-asteroids) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Naines/Leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 | [2751-robot-collisions](https://github.com/Naines/Leetcode/tree/master/2751-robot-collisions) |
 ## Divide and Conquer
@@ -943,6 +945,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Naines/Leetcode/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1710-maximum-units-on-a-truck](https://github.com/Naines/Leetcode/tree/master/1710-maximum-units-on-a-truck) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/Naines/Leetcode/tree/master/2078-two-furthest-houses-with-different-colors) |
+| [2126-destroying-asteroids](https://github.com/Naines/Leetcode/tree/master/2126-destroying-asteroids) |
 | [2406-divide-intervals-into-minimum-number-of-groups](https://github.com/Naines/Leetcode/tree/master/2406-divide-intervals-into-minimum-number-of-groups) |
 ## Bit Manipulation
 |  |
