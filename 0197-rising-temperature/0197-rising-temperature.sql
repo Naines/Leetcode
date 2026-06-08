@@ -2,4 +2,4 @@
 select b.id
 from weather a
 cross join weather b
-on datediff(b.recordDate, a.recordDate)=1 and b.temperature>a.temperature;
+where datediff (b.recordDate,  a.recordDate)  = 1  and a.temperature<b.temperature;
