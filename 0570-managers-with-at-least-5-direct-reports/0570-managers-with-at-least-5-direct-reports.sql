@@ -1,7 +1,8 @@
-# Write your MySQL query stIdement below
-select e1.name
-from Employee e1
-left join Employee e2
-on e1.id = e2.managerId 
-group by e2.managerId 
-having count(e2.managerId) >= 5
+# Write your MySQL query statement below
+select b.name
+from Employee a
+inner join Employee b
+ON a.managerId = b.id 
+where a.managerId is not null
+group by b.name, a.managerId
+having count(a.managerId)>4;
