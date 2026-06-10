@@ -20,7 +20,7 @@ class Solution {
             min = Math.min(min, n);
             maxDiff = Math.max(maxDiff, max-min);
         }
-        System.out.println(maxDiff);
+        // System.out.println(maxDiff);
         ans = (long)maxDiff*k; //74768090670
         return ans;
     }
