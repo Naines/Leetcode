@@ -9,6 +9,8 @@ class Solution {
     */
     Map<String, String> map=new HashMap<>();
     Map<String, Integer> dp = new HashMap<>();
+
+    // TC: O(n)
     public int numDecodings(String s) {
         for(int i=65;i<=90;i++){
             map.put(String.valueOf(i-64), String.valueOf((char)i));
@@ -29,6 +31,8 @@ class Solution {
         }
 
         int total = 0;
+
+        //O(2) time loop
         for(int i=0;i<s.length();i++){
             String left = s.substring(0, i+1);
             if(map.containsKey(left)){
